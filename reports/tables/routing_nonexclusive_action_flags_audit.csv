@@ -1,0 +1,5 @@
+domain,N,routing_flags_are_non_mutually_exclusive,assertions_with_multiple_positive_flags_N,assertions_with_multiple_positive_flags_percent,max_positive_flags_per_assertion,note
+all,26725,yes,21618,80.89055191768007,5,Non-exclusive action flags can sum above 100%; use primary_routing_action for mutually exclusive distribution.
+cardiomyopathy,4918,yes,4314,87.71858479056527,4,Non-exclusive action flags can sum above 100%; use primary_routing_action for mutually exclusive distribution.
+hereditary_cancer,20865,yes,16759,80.32111190989696,5,Non-exclusive action flags can sum above 100%; use primary_routing_action for mutually exclusive distribution.
+inherited_arrhythmia,942,yes,545,57.85562632696391,4,Non-exclusive action flags can sum above 100%; use primary_routing_action for mutually exclusive distribution.
