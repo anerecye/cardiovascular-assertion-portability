@@ -1,0 +1,3 @@
+system,N,unsupported_deterministic_reuse_rate,false_portable_rate,repair_recall,high_drift_risk_recall,cross_environment_drift_capture,self_loop_direct_reuse_rate,net_reduction_in_unsupported_reuse_vs_baseline
+baseline_system,26725,0.3692422825070159,0.3692422825070159,0.0,0.0,0.0,1.0,0.0
+cab,26725,0.07457436856875585,0.07457436856875585,0.870186461289015,0.7769379844961241,0.8081801708516697,0.3147653793676218,0.2946679139382601

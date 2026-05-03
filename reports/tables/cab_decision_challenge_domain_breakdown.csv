@@ -1,0 +1,7 @@
+domain,system,N,unsupported_deterministic_reuse_rate,repair_recall,cross_environment_drift_capture
+cardiomyopathy,baseline_system,4918,0.3865392435949573,0.0,0.0
+cardiomyopathy,cab,4918,0.03924359495729972,0.8984744871120462,0.9484536082474226
+hereditary_cancer,baseline_system,20865,0.3643421998562186,0.0,0.0
+hereditary_cancer,cab,20865,0.08531032830098251,0.8595106550907656,0.7880402605091771
+inherited_arrhythmia,baseline_system,942,0.3874734607218684,0.0,0.0
+inherited_arrhythmia,cab,942,0.021231422505307854,0.9452054794520548,0.0
