@@ -1,0 +1,9 @@
+baseline_regime_primary,N,classification_change_n,condition_label_change_n,cross_environment_drift_n,any_meaning_drift_n,self_loop_stable_n,mean_baseline_portability_score,classification_change_rate,condition_label_change_rate,cross_environment_drift_rate,any_meaning_drift_rate,self_loop_stable_rate
+moderate_risk_penetrance_boundary,2998,0,1078,753,1199,2245,55.8132,0.0,0.3596,0.2512,0.3999,0.7488
+nonspecific_cancer_susceptibility,2462,0,867,849,879,1613,35.0747,0.0,0.3522,0.3448,0.357,0.6552
+organ_specific_label_state,1055,0,322,237,324,818,86.7943,0.0,0.3052,0.2246,0.3071,0.7754
+recessive_or_biallelic_context,43,0,18,18,19,25,37.6279,0.0,0.4186,0.4186,0.4419,0.5814
+syndrome_anchored_high_validity,3049,0,745,28,926,3021,95.0112,0.0,0.2443,0.0092,0.3037,0.9908
+syndrome_vs_organ_collision,1982,0,1506,581,1511,1401,58.1483,0.0,0.7598,0.2931,0.7624,0.7069
+tumor_spectrum_expansion_state,9268,0,3060,906,3106,8362,66.5473,0.0,0.3302,0.0978,0.3351,0.9022
+underresolved_contextual,8,0,6,6,6,2,66.75,0.0,0.75,0.75,0.75,0.25

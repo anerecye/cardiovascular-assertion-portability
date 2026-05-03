@@ -1,0 +1,16 @@
+endpoint,model,N,positive_N,AUROC,AUROC_CI95_low,AUROC_CI95_high,AUPRC,Brier_score,log_loss,calibration_slope,cross_validated_AUROC,status
+condition_label_change,M1_gene_only,20865,7602,0.6353,0.6278,0.6426,0.4702,0.2357,0.6638,1.0062,0.6325,fit
+condition_label_change,M2_baseline_regime_only,20865,7602,0.6467,0.6394,0.6532,0.5179,0.2285,0.6507,0.9914,0.6404,fit
+condition_label_change,M3_ClinVar_metadata_only,20865,7602,0.692,0.6856,0.6996,0.557,0.2187,0.6312,0.9768,0.6908,fit
+condition_label_change,M4_gene_plus_baseline_regime,20865,7602,0.6951,0.6882,0.7033,0.592,0.2143,0.6192,1.0194,0.6929,fit
+condition_label_change,M5_gene_plus_baseline_regime_plus_metadata,20865,7602,0.7496,0.7435,0.7559,0.669,0.1976,0.5806,1.0119,0.7471,fit
+cross_environment_drift,M1_gene_only,20865,3378,0.7907,0.7835,0.7988,0.376,0.1875,0.5535,1.0026,0.7875,fit
+cross_environment_drift,M2_baseline_regime_only,20865,3378,0.7636,0.7547,0.7714,0.3663,0.2006,0.576,1.0487,0.7623,fit
+cross_environment_drift,M3_ClinVar_metadata_only,20865,3378,0.7385,0.7306,0.7445,0.2865,0.2119,0.5858,0.9629,0.7364,fit
+cross_environment_drift,M4_gene_plus_baseline_regime,20865,3378,0.8732,0.868,0.8784,0.5613,0.1494,0.4519,0.9658,0.8704,fit
+cross_environment_drift,M5_gene_plus_baseline_regime_plus_metadata,20865,3378,0.8892,0.8842,0.8934,0.5778,0.1416,0.4276,0.9475,0.8877,fit
+any_meaning_drift,M1_gene_only,20865,7970,0.6306,0.6225,0.6376,0.4836,0.2365,0.6652,1.0066,0.6273,fit
+any_meaning_drift,M2_baseline_regime_only,20865,7970,0.6402,0.6326,0.6475,0.5262,0.2311,0.6558,0.9921,0.6363,fit
+any_meaning_drift,M3_ClinVar_metadata_only,20865,7970,0.6871,0.6796,0.6938,0.5603,0.2225,0.6387,0.9767,0.6845,fit
+any_meaning_drift,M4_gene_plus_baseline_regime,20865,7970,0.6897,0.683,0.6969,0.5999,0.2169,0.6243,1.0181,0.6867,fit
+any_meaning_drift,M5_gene_plus_baseline_regime_plus_metadata,20865,7970,0.7357,0.7294,0.7422,0.6647,0.2032,0.5928,1.0074,0.7333,fit
