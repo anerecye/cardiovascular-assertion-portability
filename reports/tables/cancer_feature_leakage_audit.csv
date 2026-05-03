@@ -1,0 +1,9 @@
+feature_name,source_file,uses_baseline_condition_label,uses_followup_condition_label,uses_baseline_environment,uses_followup_environment,uses_cross_environment_drift,uses_condition_label_change,uses_followup_review_status,uses_followup_submitter_count,leakage_risk,action
+baseline_regime_primary,data/processed/cancer_baseline_portability_regimes.csv,yes,no,yes,no,no,no,no,no,none,keep
+baseline_architecture_family,data/processed/cancer_baseline_portability_regimes.csv,yes,no,yes,no,no,no,no,no,none,keep
+baseline_portability_score,data/processed/cancer_baseline_portability_regimes.csv,yes,no,yes,no,no,no,no,no,none,keep
+gene,data/processed/cancer_temporal_alignment.csv,no,no,no,no,no,no,no,no,none,keep
+baseline_review_category,derived from review_status_baseline,no,no,no,no,no,no,no,no,none,keep
+environment_followup,data/processed/cancer_temporal_alignment.csv,no,yes,no,yes,no,no,no,no,high,endpoint_derivation_only_remove_from_predictors
+cross_environment_drift,data/processed/cancer_temporal_alignment.csv,yes,yes,yes,yes,yes,no,no,no,endpoint,endpoint_only_never_predictor
+condition_label_change,data/processed/cancer_temporal_alignment.csv,yes,yes,no,no,no,yes,no,no,endpoint,endpoint_only_never_predictor

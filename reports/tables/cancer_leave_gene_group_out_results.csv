@@ -1,0 +1,13 @@
+sensitivity,endpoint,model,N,positive_N,AUROC,AUROC_CI95_low,AUROC_CI95_high,cross_validated_AUROC,AUPRC,Brier_score,log_loss,status
+leave_out_BRCA1_BRCA2,condition_label_change,M4_gene_plus_baseline_regime,12738,5252,0.724,0.716,0.7333,0.7224,0.6619,0.2058,0.6005,fit
+leave_out_BRCA1_BRCA2,cross_environment_drift,M4_gene_plus_baseline_regime,12738,3092,0.8234,0.8153,0.8312,0.8213,0.58,0.1741,0.4997,fit
+leave_out_BRCA1_BRCA2,any_meaning_drift,M4_gene_plus_baseline_regime,12738,5575,0.7112,0.7023,0.7191,0.7073,0.6673,0.2112,0.6115,fit
+leave_out_MMR_Lynch,condition_label_change,M4_gene_plus_baseline_regime,15432,5166,0.663,0.6543,0.6724,0.6595,0.5149,0.2251,0.6423,fit
+leave_out_MMR_Lynch,cross_environment_drift,M4_gene_plus_baseline_regime,15432,1967,0.8888,0.8825,0.8961,0.8861,0.5502,0.1362,0.4277,fit
+leave_out_MMR_Lynch,any_meaning_drift,M4_gene_plus_baseline_regime,15432,5517,0.6616,0.6524,0.6702,0.6545,0.5296,0.2274,0.6469,fit
+leave_out_moderate_risk_ATM_CHEK2_PALB2,condition_label_change,M4_gene_plus_baseline_regime,17091,5888,0.7037,0.6944,0.7122,0.7011,0.5817,0.2133,0.6167,fit
+leave_out_moderate_risk_ATM_CHEK2_PALB2,cross_environment_drift,M4_gene_plus_baseline_regime,17091,2074,0.8851,0.8783,0.892,0.8829,0.506,0.1373,0.4309,fit
+leave_out_moderate_risk_ATM_CHEK2_PALB2,any_meaning_drift,M4_gene_plus_baseline_regime,17091,6134,0.6921,0.6825,0.7001,0.6897,0.5853,0.2165,0.6231,fit
+leave_out_syndrome_anchor_TP53_PTEN_APC,condition_label_change,M4_gene_plus_baseline_regime,18546,6886,0.6998,0.6924,0.7064,0.697,0.6019,0.2117,0.6138,fit
+leave_out_syndrome_anchor_TP53_PTEN_APC,cross_environment_drift,M4_gene_plus_baseline_regime,18546,3112,0.8661,0.8584,0.8719,0.8643,0.5687,0.1512,0.4598,fit
+leave_out_syndrome_anchor_TP53_PTEN_APC,any_meaning_drift,M4_gene_plus_baseline_regime,18546,7101,0.7014,0.6938,0.7084,0.699,0.6069,0.213,0.6164,fit

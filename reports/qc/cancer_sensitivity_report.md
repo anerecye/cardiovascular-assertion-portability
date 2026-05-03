@@ -1,0 +1,141 @@
+# Cancer Sensitivity Report
+
+Technical QC output; not manuscript prose.
+
+Sensitivity analyses run:
+1. Exclude BRCA1/BRCA2.
+2. Exclude top 2 genes by assertion count.
+3. Restrict to genes with N >= 100.
+4. Restrict to syndrome-anchored genes only.
+5. Restrict to moderate-risk genes only.
+6. Metadata-adjusted models.
+7. Bootstrap CI and cross-validation for AUROC.
+
+## Gene count distribution
+  gene    N  fraction
+ BRCA2 4415    0.2116
+ BRCA1 3712    0.1779
+   ATM 2237    0.1072
+  MSH2 1736    0.0832
+  MLH1 1475    0.0707
+  MSH6 1437    0.0689
+   APC 1336    0.0640
+ PALB2  919    0.0440
+  PMS2  725    0.0347
+ CHEK2  618    0.0296
+  PTEN  602    0.0289
+  TP53  381    0.0183
+  CDH1  351    0.0168
+ STK11  248    0.0119
+ MUTYH  227    0.0109
+BMPR1A  202    0.0097
+ SMAD4  184    0.0088
+ EPCAM   60    0.0029
+
+## Sensitivity model comparison
+                          sensitivity                endpoint                                      model     N  positive_N  AUROC  AUROC_CI95_low  AUROC_CI95_high  cross_validated_AUROC  AUPRC  Brier_score  log_loss status
+                           all_cancer  condition_label_change                               M1_gene_only 20865        7602 0.6353          0.6269           0.6427                 0.6325 0.4702       0.2357    0.6638    fit
+                           all_cancer  condition_label_change                    M2_baseline_regime_only 20865        7602 0.6467          0.6391           0.6528                 0.6404 0.5179       0.2285    0.6507    fit
+                           all_cancer  condition_label_change                   M3_ClinVar_metadata_only 20865        7602 0.6950          0.6879           0.7024                 0.6934 0.5649       0.2184    0.6306    fit
+                           all_cancer  condition_label_change               M4_gene_plus_baseline_regime 20865        7602 0.6951          0.6870           0.7033                 0.6929 0.5920       0.2143    0.6192    fit
+                           all_cancer  condition_label_change M5_gene_plus_baseline_regime_plus_metadata 20865        7602 0.7499          0.7437           0.7560                 0.7475 0.6701       0.1975    0.5806    fit
+                           all_cancer cross_environment_drift                               M1_gene_only 20865        3378 0.7907          0.7829           0.7989                 0.7875 0.3760       0.1875    0.5535    fit
+                           all_cancer cross_environment_drift                    M2_baseline_regime_only 20865        3378 0.7636          0.7549           0.7714                 0.7623 0.3663       0.2006    0.5760    fit
+                           all_cancer cross_environment_drift                   M3_ClinVar_metadata_only 20865        3378 0.7392          0.7314           0.7452                 0.7364 0.2929       0.2117    0.5853    fit
+                           all_cancer cross_environment_drift               M4_gene_plus_baseline_regime 20865        3378 0.8732          0.8680           0.8777                 0.8704 0.5613       0.1494    0.4519    fit
+                           all_cancer cross_environment_drift M5_gene_plus_baseline_regime_plus_metadata 20865        3378 0.8893          0.8844           0.8930                 0.8877 0.5791       0.1416    0.4276    fit
+                           all_cancer       any_meaning_drift                               M1_gene_only 20865        7970 0.6306          0.6215           0.6384                 0.6273 0.4836       0.2365    0.6652    fit
+                           all_cancer       any_meaning_drift                    M2_baseline_regime_only 20865        7970 0.6402          0.6325           0.6473                 0.6363 0.5262       0.2311    0.6558    fit
+                           all_cancer       any_meaning_drift                   M3_ClinVar_metadata_only 20865        7970 0.6810          0.6741           0.6885                 0.6818 0.5667       0.2221    0.6379    fit
+                           all_cancer       any_meaning_drift               M4_gene_plus_baseline_regime 20865        7970 0.6897          0.6827           0.6963                 0.6867 0.5999       0.2169    0.6243    fit
+                           all_cancer       any_meaning_drift M5_gene_plus_baseline_regime_plus_metadata 20865        7970 0.7354          0.7289           0.7420                 0.7335 0.6652       0.2031    0.5926    fit
+                  exclude_BRCA1_BRCA2  condition_label_change                               M1_gene_only 12738        5252 0.6266          0.6183           0.6369                 0.6221 0.5037       0.2371    0.6661    fit
+                  exclude_BRCA1_BRCA2  condition_label_change                    M2_baseline_regime_only 12738        5252 0.6924          0.6832           0.7015                 0.6902 0.6107       0.2146    0.6211    fit
+                  exclude_BRCA1_BRCA2  condition_label_change                   M3_ClinVar_metadata_only 12738        5252 0.6981          0.6875           0.7052                 0.6964 0.6213       0.2125    0.6181    fit
+                  exclude_BRCA1_BRCA2  condition_label_change               M4_gene_plus_baseline_regime 12738        5252 0.7240          0.7160           0.7333                 0.7224 0.6619       0.2058    0.6005    fit
+                  exclude_BRCA1_BRCA2  condition_label_change M5_gene_plus_baseline_regime_plus_metadata 12738        5252 0.7572          0.7477           0.7657                 0.7545 0.7137       0.1952    0.5758    fit
+                  exclude_BRCA1_BRCA2 cross_environment_drift                               M1_gene_only 12738        3092 0.7099          0.7009           0.7205                 0.7057 0.3939       0.2157    0.6208    fit
+                  exclude_BRCA1_BRCA2 cross_environment_drift                    M2_baseline_regime_only 12738        3092 0.7881          0.7806           0.7972                 0.7824 0.4732       0.2037    0.5767    fit
+                  exclude_BRCA1_BRCA2 cross_environment_drift                   M3_ClinVar_metadata_only 12738        3092 0.6774          0.6668           0.6874                 0.6689 0.3573       0.2237    0.6268    fit
+                  exclude_BRCA1_BRCA2 cross_environment_drift               M4_gene_plus_baseline_regime 12738        3092 0.8234          0.8153           0.8312                 0.8213 0.5800       0.1741    0.4997    fit
+                  exclude_BRCA1_BRCA2 cross_environment_drift M5_gene_plus_baseline_regime_plus_metadata 12738        3092 0.8432          0.8367           0.8501                 0.8408 0.6169       0.1656    0.4789    fit
+                  exclude_BRCA1_BRCA2       any_meaning_drift                               M1_gene_only 12738        5575 0.6071          0.5992           0.6173                 0.6035 0.5152       0.2401    0.6723    fit
+                  exclude_BRCA1_BRCA2       any_meaning_drift                    M2_baseline_regime_only 12738        5575 0.6759          0.6655           0.6859                 0.6713 0.6147       0.2206    0.6335    fit
+                  exclude_BRCA1_BRCA2       any_meaning_drift                   M3_ClinVar_metadata_only 12738        5575 0.6830          0.6725           0.6904                 0.6785 0.6281       0.2182    0.6297    fit
+                  exclude_BRCA1_BRCA2       any_meaning_drift               M4_gene_plus_baseline_regime 12738        5575 0.7112          0.7023           0.7191                 0.7073 0.6673       0.2112    0.6115    fit
+                  exclude_BRCA1_BRCA2       any_meaning_drift M5_gene_plus_baseline_regime_plus_metadata 12738        5575 0.7305          0.7215           0.7386                 0.7273 0.7051       0.2049    0.5969    fit
+exclude_top2_genes_by_assertion_count  condition_label_change                               M1_gene_only 12738        5252 0.6266          0.6183           0.6369                 0.6221 0.5037       0.2371    0.6661    fit
+exclude_top2_genes_by_assertion_count  condition_label_change                    M2_baseline_regime_only 12738        5252 0.6924          0.6832           0.7015                 0.6902 0.6107       0.2146    0.6211    fit
+exclude_top2_genes_by_assertion_count  condition_label_change                   M3_ClinVar_metadata_only 12738        5252 0.6981          0.6875           0.7052                 0.6964 0.6213       0.2125    0.6181    fit
+exclude_top2_genes_by_assertion_count  condition_label_change               M4_gene_plus_baseline_regime 12738        5252 0.7240          0.7160           0.7333                 0.7224 0.6619       0.2058    0.6005    fit
+exclude_top2_genes_by_assertion_count  condition_label_change M5_gene_plus_baseline_regime_plus_metadata 12738        5252 0.7572          0.7477           0.7657                 0.7545 0.7137       0.1952    0.5758    fit
+exclude_top2_genes_by_assertion_count cross_environment_drift                               M1_gene_only 12738        3092 0.7099          0.7009           0.7205                 0.7057 0.3939       0.2157    0.6208    fit
+exclude_top2_genes_by_assertion_count cross_environment_drift                    M2_baseline_regime_only 12738        3092 0.7881          0.7806           0.7972                 0.7824 0.4732       0.2037    0.5767    fit
+exclude_top2_genes_by_assertion_count cross_environment_drift                   M3_ClinVar_metadata_only 12738        3092 0.6774          0.6668           0.6874                 0.6689 0.3573       0.2237    0.6268    fit
+exclude_top2_genes_by_assertion_count cross_environment_drift               M4_gene_plus_baseline_regime 12738        3092 0.8234          0.8153           0.8312                 0.8213 0.5800       0.1741    0.4997    fit
+exclude_top2_genes_by_assertion_count cross_environment_drift M5_gene_plus_baseline_regime_plus_metadata 12738        3092 0.8432          0.8367           0.8501                 0.8408 0.6169       0.1656    0.4789    fit
+exclude_top2_genes_by_assertion_count       any_meaning_drift                               M1_gene_only 12738        5575 0.6071          0.5992           0.6173                 0.6035 0.5152       0.2401    0.6723    fit
+exclude_top2_genes_by_assertion_count       any_meaning_drift                    M2_baseline_regime_only 12738        5575 0.6759          0.6655           0.6859                 0.6713 0.6147       0.2206    0.6335    fit
+exclude_top2_genes_by_assertion_count       any_meaning_drift                   M3_ClinVar_metadata_only 12738        5575 0.6830          0.6725           0.6904                 0.6785 0.6281       0.2182    0.6297    fit
+exclude_top2_genes_by_assertion_count       any_meaning_drift               M4_gene_plus_baseline_regime 12738        5575 0.7112          0.7023           0.7191                 0.7073 0.6673       0.2112    0.6115    fit
+exclude_top2_genes_by_assertion_count       any_meaning_drift M5_gene_plus_baseline_regime_plus_metadata 12738        5575 0.7305          0.7215           0.7386                 0.7273 0.7051       0.2049    0.5969    fit
+                       genes_N_ge_100  condition_label_change                               M1_gene_only 20805        7599 0.6340          0.6266           0.6415                 0.6311 0.4703       0.2360    0.6646    fit
+                       genes_N_ge_100  condition_label_change                    M2_baseline_regime_only 20805        7599 0.6501          0.6426           0.6579                 0.6420 0.5202       0.2286    0.6509    fit
+                       genes_N_ge_100  condition_label_change                   M3_ClinVar_metadata_only 20805        7599 0.6944          0.6864           0.7021                 0.6925 0.5651       0.2186    0.6309    fit
+                       genes_N_ge_100  condition_label_change               M4_gene_plus_baseline_regime 20805        7599 0.6942          0.6863           0.7011                 0.6914 0.5922       0.2146    0.6199    fit
+                       genes_N_ge_100  condition_label_change M5_gene_plus_baseline_regime_plus_metadata 20805        7599 0.7489          0.7414           0.7550                 0.7465 0.6700       0.1978    0.5813    fit
+                       genes_N_ge_100 cross_environment_drift                               M1_gene_only 20805        3375 0.7906          0.7825           0.7985                 0.7875 0.3762       0.1876    0.5536    fit
+                       genes_N_ge_100 cross_environment_drift                    M2_baseline_regime_only 20805        3375 0.7641          0.7551           0.7721                 0.7622 0.3670       0.2004    0.5755    fit
+                       genes_N_ge_100 cross_environment_drift                   M3_ClinVar_metadata_only 20805        3375 0.7396          0.7322           0.7460                 0.7377 0.2934       0.2116    0.5850    fit
+                       genes_N_ge_100 cross_environment_drift               M4_gene_plus_baseline_regime 20805        3375 0.8731          0.8677           0.8780                 0.8708 0.5618       0.1495    0.4519    fit
+                       genes_N_ge_100 cross_environment_drift M5_gene_plus_baseline_regime_plus_metadata 20805        3375 0.8891          0.8844           0.8936                 0.8880 0.5792       0.1417    0.4277    fit
+                       genes_N_ge_100       any_meaning_drift                               M1_gene_only 20805        7967 0.6292          0.6216           0.6371                 0.6266 0.4837       0.2368    0.6660    fit
+                       genes_N_ge_100       any_meaning_drift                    M2_baseline_regime_only 20805        7967 0.6387          0.6309           0.6466                 0.6309 0.5263       0.2312    0.6560    fit
+                       genes_N_ge_100       any_meaning_drift                   M3_ClinVar_metadata_only 20805        7967 0.6879          0.6804           0.6957                 0.6808 0.5677       0.2223    0.6382    fit
+                       genes_N_ge_100       any_meaning_drift               M4_gene_plus_baseline_regime 20805        7967 0.6887          0.6807           0.6962                 0.6849 0.6001       0.2172    0.6251    fit
+                       genes_N_ge_100       any_meaning_drift M5_gene_plus_baseline_regime_plus_metadata 20805        7967 0.7344          0.7268           0.7406                 0.7320 0.6652       0.2034    0.5934    fit
+         syndrome_anchored_genes_only  condition_label_change                               M1_gene_only  8964        3538 0.6329          0.6227           0.6441                 0.6275 0.4921       0.2359    0.6634    fit
+         syndrome_anchored_genes_only  condition_label_change                    M2_baseline_regime_only  8964        3538 0.7339          0.7233           0.7442                 0.7290 0.6349       0.2014    0.5932    fit
+         syndrome_anchored_genes_only  condition_label_change                   M3_ClinVar_metadata_only  8964        3538 0.7006          0.6895           0.7105                 0.6941 0.6112       0.2099    0.6149    fit
+         syndrome_anchored_genes_only  condition_label_change               M4_gene_plus_baseline_regime  8964        3538 0.7596          0.7494           0.7709                 0.7564 0.6813       0.1937    0.5752    fit
+         syndrome_anchored_genes_only  condition_label_change M5_gene_plus_baseline_regime_plus_metadata  8964        3538 0.7699          0.7604           0.7814                 0.7671 0.7135       0.1886    0.5618    fit
+         syndrome_anchored_genes_only cross_environment_drift                               M1_gene_only  8964        1788 0.6996          0.6880           0.7122                 0.6919 0.3336       0.2173    0.6265    fit
+         syndrome_anchored_genes_only cross_environment_drift                    M2_baseline_regime_only  8964        1788 0.8542          0.8444           0.8622                 0.8506 0.5368       0.1631    0.4664    fit
+         syndrome_anchored_genes_only cross_environment_drift                   M3_ClinVar_metadata_only  8964        1788 0.6688          0.6559           0.6816                 0.6652 0.3005       0.2266    0.6261    fit
+         syndrome_anchored_genes_only cross_environment_drift               M4_gene_plus_baseline_regime  8964        1788 0.8688          0.8604           0.8768                 0.8652 0.6076       0.1562    0.4495    fit
+         syndrome_anchored_genes_only cross_environment_drift M5_gene_plus_baseline_regime_plus_metadata  8964        1788 0.8706          0.8618           0.8785                 0.8670 0.6094       0.1546    0.4451    fit
+         syndrome_anchored_genes_only       any_meaning_drift                               M1_gene_only  8964        3739 0.6109          0.6017           0.6210                 0.6042 0.5000       0.2390    0.6698    fit
+         syndrome_anchored_genes_only       any_meaning_drift                    M2_baseline_regime_only  8964        3739 0.7036          0.6923           0.7156                 0.7001 0.6379       0.2099    0.6107    fit
+         syndrome_anchored_genes_only       any_meaning_drift                   M3_ClinVar_metadata_only  8964        3739 0.6888          0.6769           0.6988                 0.6855 0.6188       0.2144    0.6240    fit
+         syndrome_anchored_genes_only       any_meaning_drift               M4_gene_plus_baseline_regime  8964        3739 0.7413          0.7292           0.7529                 0.7375 0.6844       0.2013    0.5904    fit
+         syndrome_anchored_genes_only       any_meaning_drift M5_gene_plus_baseline_regime_plus_metadata  8964        3739 0.7506          0.7405           0.7617                 0.7451 0.7099       0.1971    0.5802    fit
+             moderate_risk_genes_only  condition_label_change                               M1_gene_only  3774        1714 0.5897          0.5749           0.6055                 0.5824 0.5077       0.2422    0.6772    fit
+             moderate_risk_genes_only  condition_label_change                    M2_baseline_regime_only  3774        1714 0.6529          0.6343           0.6718                 0.6495 0.6386       0.2143    0.6175    fit
+             moderate_risk_genes_only  condition_label_change                   M3_ClinVar_metadata_only  3774        1714 0.6935          0.6814           0.7104                 0.6856 0.6483       0.2164    0.6230    fit
+             moderate_risk_genes_only  condition_label_change               M4_gene_plus_baseline_regime  3774        1714 0.6814          0.6628           0.7011                 0.6747 0.6648       0.2133    0.6153    fit
+             moderate_risk_genes_only  condition_label_change M5_gene_plus_baseline_regime_plus_metadata  3774        1714 0.7495          0.7352           0.7640                 0.7439 0.7360       0.1985    0.5803    fit
+             moderate_risk_genes_only cross_environment_drift                               M1_gene_only  3774        1304 0.6456          0.6343           0.6613                 0.6391 0.4333       0.2297    0.6494    fit
+             moderate_risk_genes_only cross_environment_drift                    M2_baseline_regime_only  3774        1304 0.7106          0.6916           0.7271                 0.7036 0.6030       0.2011    0.5899    fit
+             moderate_risk_genes_only cross_environment_drift                   M3_ClinVar_metadata_only  3774        1304 0.6622          0.6459           0.6796                 0.6474 0.4795       0.2263    0.6449    fit
+             moderate_risk_genes_only cross_environment_drift               M4_gene_plus_baseline_regime  3774        1304 0.7438          0.7281           0.7609                 0.7387 0.6230       0.1992    0.5821    fit
+             moderate_risk_genes_only cross_environment_drift M5_gene_plus_baseline_regime_plus_metadata  3774        1304 0.7898          0.7753           0.8042                 0.7812 0.6874       0.1881    0.5525    fit
+             moderate_risk_genes_only       any_meaning_drift                               M1_gene_only  3774        1836 0.5650          0.5495           0.5800                 0.5564 0.5237       0.2457    0.6845    fit
+             moderate_risk_genes_only       any_meaning_drift                    M2_baseline_regime_only  3774        1836 0.6370          0.6184           0.6540                 0.6348 0.6444       0.2207    0.6305    fit
+             moderate_risk_genes_only       any_meaning_drift                   M3_ClinVar_metadata_only  3774        1836 0.6705          0.6579           0.6867                 0.6653 0.6518       0.2241    0.6387    fit
+             moderate_risk_genes_only       any_meaning_drift               M4_gene_plus_baseline_regime  3774        1836 0.6657          0.6488           0.6847                 0.6610 0.6713       0.2194    0.6278    fit
+             moderate_risk_genes_only       any_meaning_drift M5_gene_plus_baseline_regime_plus_metadata  3774        1836 0.7115          0.6976           0.7271                 0.7069 0.7265       0.2108    0.6072    fit
+
+## Leave gene-group out
+                            sensitivity                endpoint                        model     N  positive_N  AUROC  AUROC_CI95_low  AUROC_CI95_high  cross_validated_AUROC  AUPRC  Brier_score  log_loss status
+                  leave_out_BRCA1_BRCA2  condition_label_change M4_gene_plus_baseline_regime 12738        5252 0.7240          0.7160           0.7333                 0.7224 0.6619       0.2058    0.6005    fit
+                  leave_out_BRCA1_BRCA2 cross_environment_drift M4_gene_plus_baseline_regime 12738        3092 0.8234          0.8153           0.8312                 0.8213 0.5800       0.1741    0.4997    fit
+                  leave_out_BRCA1_BRCA2       any_meaning_drift M4_gene_plus_baseline_regime 12738        5575 0.7112          0.7023           0.7191                 0.7073 0.6673       0.2112    0.6115    fit
+                    leave_out_MMR_Lynch  condition_label_change M4_gene_plus_baseline_regime 15432        5166 0.6630          0.6543           0.6724                 0.6595 0.5149       0.2251    0.6423    fit
+                    leave_out_MMR_Lynch cross_environment_drift M4_gene_plus_baseline_regime 15432        1967 0.8888          0.8825           0.8961                 0.8861 0.5502       0.1362    0.4277    fit
+                    leave_out_MMR_Lynch       any_meaning_drift M4_gene_plus_baseline_regime 15432        5517 0.6616          0.6524           0.6702                 0.6545 0.5296       0.2274    0.6469    fit
+leave_out_moderate_risk_ATM_CHEK2_PALB2  condition_label_change M4_gene_plus_baseline_regime 17091        5888 0.7037          0.6944           0.7122                 0.7011 0.5817       0.2133    0.6167    fit
+leave_out_moderate_risk_ATM_CHEK2_PALB2 cross_environment_drift M4_gene_plus_baseline_regime 17091        2074 0.8851          0.8783           0.8920                 0.8829 0.5060       0.1373    0.4309    fit
+leave_out_moderate_risk_ATM_CHEK2_PALB2       any_meaning_drift M4_gene_plus_baseline_regime 17091        6134 0.6921          0.6825           0.7001                 0.6897 0.5853       0.2165    0.6231    fit
+leave_out_syndrome_anchor_TP53_PTEN_APC  condition_label_change M4_gene_plus_baseline_regime 18546        6886 0.6998          0.6924           0.7064                 0.6970 0.6019       0.2117    0.6138    fit
+leave_out_syndrome_anchor_TP53_PTEN_APC cross_environment_drift M4_gene_plus_baseline_regime 18546        3112 0.8661          0.8584           0.8719                 0.8643 0.5687       0.1512    0.4598    fit
+leave_out_syndrome_anchor_TP53_PTEN_APC       any_meaning_drift M4_gene_plus_baseline_regime 18546        7101 0.7014          0.6938           0.7084                 0.6990 0.6069       0.2130    0.6164    fit
