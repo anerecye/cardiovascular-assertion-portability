@@ -1,0 +1,10 @@
+endpoint,numerator,denominator,rate,ci95_low,ci95_high,endpoint_role
+classification_change,0,4918,0.0,0.0,0.0,secondary
+condition_label_change,1901,4918,0.3865,0.3729,0.4001,primary
+cross_environment_drift,485,4918,0.0986,0.0903,0.107,primary
+within_environment_label_drift,1416,4918,0.2879,0.2753,0.3006,secondary
+self_loop_stable,4433,4918,0.9014,0.893,0.9097,secondary
+review_status_change,890,4918,0.181,0.1702,0.1917,secondary
+submitter_count_change,1743,4918,0.3544,0.341,0.3678,secondary
+any_meaning_drift,1985,4918,0.4036,0.3899,0.4173,primary
+semantic_drift_without_reclassification,1901,4918,0.3865,0.3729,0.4001,secondary

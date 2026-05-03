@@ -1,0 +1,19 @@
+endpoint,model,AUROC,AUPRC,Brier_score,N,positive_N,alpha_source,status,interpretation
+future_condition_label_drift,AlphaMissense-only,0.6291,0.5605,0.2434,214,96,AlphaMissense_hg38_v3,fit,Protein-level deleteriousness-only model in high-confidence missense subset; compare against CAB/gene models to test whether molecular damage explains portability.
+future_condition_label_drift,CAB-only,0.8242,0.7271,0.1611,214,96,AlphaMissense_hg38_v3,fit,AlphaMissense missense-only sensitivity analysis; not full CAB-universe control.
+future_condition_label_drift,gene-only,0.7924,0.684,0.1757,214,96,AlphaMissense_hg38_v3,fit,AlphaMissense missense-only sensitivity analysis; not full CAB-universe control.
+future_condition_label_drift,gene+AlphaMissense,0.7952,0.706,0.1746,214,96,AlphaMissense_hg38_v3,fit,AlphaMissense missense-only sensitivity analysis; not full CAB-universe control.
+future_condition_label_drift,CAB+AlphaMissense,0.8375,0.776,0.1599,214,96,AlphaMissense_hg38_v3,fit,AlphaMissense missense-only sensitivity analysis; not full CAB-universe control.
+future_condition_label_drift,gene+CAB+AlphaMissense,0.8497,0.7929,0.1529,214,96,AlphaMissense_hg38_v3,fit,AlphaMissense missense-only sensitivity analysis; not full CAB-universe control.
+cross_environment_drift,AlphaMissense-only,0.6364,0.1523,0.2331,214,13,AlphaMissense_hg38_v3,fit,Protein-level deleteriousness-only model in high-confidence missense subset; compare against CAB/gene models to test whether molecular damage explains portability.
+cross_environment_drift,CAB-only,0.778,0.1896,0.2017,214,13,AlphaMissense_hg38_v3,fit,AlphaMissense missense-only sensitivity analysis; not full CAB-universe control.
+cross_environment_drift,gene-only,0.7354,0.1862,0.1931,214,13,AlphaMissense_hg38_v3,fit,AlphaMissense missense-only sensitivity analysis; not full CAB-universe control.
+cross_environment_drift,gene+AlphaMissense,0.7956,0.3665,0.183,214,13,AlphaMissense_hg38_v3,fit,AlphaMissense missense-only sensitivity analysis; not full CAB-universe control.
+cross_environment_drift,CAB+AlphaMissense,0.7738,0.2298,0.1959,214,13,AlphaMissense_hg38_v3,fit,AlphaMissense missense-only sensitivity analysis; not full CAB-universe control.
+cross_environment_drift,gene+CAB+AlphaMissense,0.8358,0.4714,0.1615,214,13,AlphaMissense_hg38_v3,fit,AlphaMissense missense-only sensitivity analysis; not full CAB-universe control.
+any_meaning_drift,AlphaMissense-only,0.5871,0.632,0.2488,214,123,AlphaMissense_hg38_v3,fit,Protein-level deleteriousness-only model in high-confidence missense subset; compare against CAB/gene models to test whether molecular damage explains portability.
+any_meaning_drift,CAB-only,0.6998,0.7175,0.2174,214,123,AlphaMissense_hg38_v3,fit,AlphaMissense missense-only sensitivity analysis; not full CAB-universe control.
+any_meaning_drift,gene-only,0.6997,0.7005,0.211,214,123,AlphaMissense_hg38_v3,fit,AlphaMissense missense-only sensitivity analysis; not full CAB-universe control.
+any_meaning_drift,gene+AlphaMissense,0.6959,0.7077,0.2109,214,123,AlphaMissense_hg38_v3,fit,AlphaMissense missense-only sensitivity analysis; not full CAB-universe control.
+any_meaning_drift,CAB+AlphaMissense,0.687,0.7229,0.217,214,123,AlphaMissense_hg38_v3,fit,AlphaMissense missense-only sensitivity analysis; not full CAB-universe control.
+any_meaning_drift,gene+CAB+AlphaMissense,0.7629,0.7857,0.1954,214,123,AlphaMissense_hg38_v3,fit,AlphaMissense missense-only sensitivity analysis; not full CAB-universe control.

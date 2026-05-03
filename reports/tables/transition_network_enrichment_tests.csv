@@ -1,0 +1,5 @@
+test,positive_endpoint_n,exposed_n,odds_ratio,p_value,status,FDR_p_value
+disease_model_collision_enriched_cross_environment,146,486,4.90139751552795,3.726065052075969e-15,fit,1.4904260208303876e-14
+genotype_first_enriched_SADS_transition,2,930,inf,1.0,fit,1.0
+canonical_enriched_self_loop_stable,796,71,4.4523809523809526,0.003480258714659715,fit,0.00464034495287962
+low_CPI_enriched_cross_environment,146,510,4.804733727810651,1.7978105827185923e-14,fit,3.5956211654371846e-14

@@ -1,0 +1,4 @@
+endpoint,model,N,positive_N,AUROC,AUROC_CI95_low,AUROC_CI95_high,AUPRC,Brier_score,log_loss,calibration_slope,cross_validated_AUROC,AIC_approx,BIC_approx,status
+condition_label_change,baseline_nonportability_score_only,4918,1901,0.561,0.5435,0.5738,0.4314,0.2472,0.6875,0.974,0.5603,6766.5123,6779.5136,fit
+cross_environment_drift,baseline_nonportability_score_only,4918,485,0.7665,0.7467,0.7893,0.2403,0.2044,0.5894,1.1228,0.7643,5801.1393,5814.1406,fit
+any_meaning_drift,baseline_nonportability_score_only,4918,1985,0.5508,0.5332,0.5656,0.4415,0.248,0.6892,0.9709,0.5507,6782.6782,6795.6796,fit

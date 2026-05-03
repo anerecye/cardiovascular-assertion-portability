@@ -1,0 +1,9 @@
+feature_name,source_file,uses_baseline_condition_label,uses_followup_condition_label,uses_baseline_environment,uses_followup_environment,uses_transition_endpoint,uses_classification_followup,leakage_status,action
+cardiomyopathy_portability_regime_v1,data/processed/cardiomyopathy_portability_regimes.csv,yes,yes,yes,yes,yes,no,definite,remove
+cardiomyopathy_architecture_v1,data/processed/cardiomyopathy_portability_regimes.csv,yes,yes,yes,yes,yes,no,definite,remove
+cardiomyopathy_portability_score_v1,data/processed/cardiomyopathy_portability_regimes.csv,yes,yes,yes,yes,yes,no,definite,remove
+condition_environment_baseline,data/processed/cardiomyopathy_temporal_alignment.csv,yes,no,yes,no,no,no,none,keep
+condition_environment_followup,data/processed/cardiomyopathy_temporal_alignment.csv,no,yes,no,yes,no,no,definite,remove_as_predictor_keep_endpoint_derivation_only
+cross_environment_drift,data/processed/cardiomyopathy_temporal_alignment.csv,yes,yes,yes,yes,yes,no,definite,remove_from_predictors_endpoint_only
+condition_label_change,data/processed/cardiomyopathy_temporal_alignment.csv,yes,yes,no,no,yes,no,definite,remove_from_predictors_endpoint_only
+baseline_regime_primary_v2,data/processed/cardiomyopathy_baseline_only_regimes.csv,yes,no,yes,no,no,no,none,keep

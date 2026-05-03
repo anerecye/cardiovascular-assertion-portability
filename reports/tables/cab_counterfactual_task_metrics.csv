@@ -1,0 +1,6 @@
+task,baseline_unsupported_deterministic_reuse_rate,CAB_unsupported_deterministic_reuse_rate,absolute_reduction_in_unsupported_reuse,baseline_correctness_rate,CAB_correctness_rate,absolute_gain_in_rule_adjudicated_correctness,CAB_contextual_repair_rate,baseline_cross_environment_error_rate,CAB_cross_environment_error_rate
+T1_phenotype_first_diagnosis,0.9539,0.1667,0.7872,0.0,0.6021,0.6021,0.9446,0.1626,0.0208
+T2_SADS_postmortem_interpretation,1.0,0.0,1.0,0.0,0.6436,0.6436,1.0,0.1626,
+T3_reuse_without_ancestry_aware_AF,0.5894,0.02,0.5694,0.0,0.1407,0.1407,0.9423,0.1626,0.02
+T4_single_disease_model,0.9458,0.0208,0.925,0.0,0.6125,0.6125,0.9446,0.1626,0.0208
+T5_requires_expert_disease_specific_review,0.9285,0.0204,0.9081,0.0,0.9827,0.9827,0.9435,0.1626,0.0

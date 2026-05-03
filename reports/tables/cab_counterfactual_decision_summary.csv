@@ -1,0 +1,11 @@
+pipeline,task,N_task_assertion_uses,deterministic_reuse_N,unsupported_deterministic_reuse_N,unsupported_deterministic_reuse_rate,contextual_repair_or_expert_N,contextual_repair_rate,rule_adjudicated_correct_N,expert_adjudicated_correctness_rate,temporal_drift_risk_among_allowed_reuse,cross_environment_error_rate_among_allowed_reuse,adjudication_source
+baseline,T1_phenotype_first_diagnosis,867,867,827,0.9539,0,0.0,0,0.0,0.3829,0.1626,rule_based_CAB_temporal_operational_benchmark
+baseline,T2_SADS_postmortem_interpretation,867,867,867,1.0,0,0.0,0,0.0,0.3829,0.1626,rule_based_CAB_temporal_operational_benchmark
+baseline,T3_reuse_without_ancestry_aware_AF,867,867,511,0.5894,0,0.0,0,0.0,0.3829,0.1626,rule_based_CAB_temporal_operational_benchmark
+baseline,T4_single_disease_model,867,867,820,0.9458,0,0.0,0,0.0,0.3829,0.1626,rule_based_CAB_temporal_operational_benchmark
+baseline,T5_requires_expert_disease_specific_review,867,867,805,0.9285,0,0.0,0,0.0,0.3829,0.1626,rule_based_CAB_temporal_operational_benchmark
+CAB,T1_phenotype_first_diagnosis,867,48,8,0.1667,819,0.9446,522,0.6021,0.1667,0.0208,rule_based_CAB_temporal_operational_benchmark
+CAB,T2_SADS_postmortem_interpretation,867,0,0,0.0,867,1.0,558,0.6436,,,rule_based_CAB_temporal_operational_benchmark
+CAB,T3_reuse_without_ancestry_aware_AF,867,50,1,0.02,817,0.9423,122,0.1407,0.18,0.02,rule_based_CAB_temporal_operational_benchmark
+CAB,T4_single_disease_model,867,48,1,0.0208,819,0.9446,531,0.6125,0.1667,0.0208,rule_based_CAB_temporal_operational_benchmark
+CAB,T5_requires_expert_disease_specific_review,867,49,1,0.0204,818,0.9435,852,0.9827,0.1633,0.0,rule_based_CAB_temporal_operational_benchmark

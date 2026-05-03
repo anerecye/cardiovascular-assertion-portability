@@ -1,0 +1,5 @@
+resource,coverage_level,covered_assertions,total_assertions,coverage_rate,allowed_statement,forbidden_statement
+ClinGen Gene-Disease Validity,gene/gene-condition if local file present,0,4918,0.0,unavailable unless local join file exists,VCEP validates assertions / variant-level ClinGen validation / ClinGen confirmed pathogenicity
+CMP VCEP scope,gene-level scope candidate only,1135,4918,0.2308,gene-level scope only; not variant-level validation,VCEP validates assertions / variant-level ClinGen validation / ClinGen confirmed pathogenicity
+CMP CSpec scope,gene-level scope candidate only,1135,4918,0.2308,gene-level scope only; not variant-level validation,VCEP validates assertions / variant-level ClinGen validation / ClinGen confirmed pathogenicity
+ClinGen Evidence Repository,variant-level,0,4918,0.0,no variant-level Evidence Repository validation joined,VCEP validates assertions / variant-level ClinGen validation / ClinGen confirmed pathogenicity

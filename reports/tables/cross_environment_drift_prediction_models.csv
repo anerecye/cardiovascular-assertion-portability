@@ -1,0 +1,6 @@
+model,endpoint,N,endpoint_positive_N,AUROC,AUPRC,Brier_score,calibration_slope,log_loss,AIC,BIC,pseudo_R2,AUROC_CI95_low,AUROC_CI95_high
+CPI,cross_environment_drift,942,146,0.7581,0.3949,0.2059,1.0347,0.595,1124.97,1134.66,-0.3796,0.7111,0.8003
+gene-only,cross_environment_drift,942,146,0.8165,0.4225,0.1578,1.0333,0.5018,977.45,1055.01,-0.1636,0.7849,0.8565
+CAB_features,cross_environment_drift,942,146,0.7728,0.437,0.1753,1.0978,0.5362,1042.23,1119.8,-0.2434,0.7342,0.8228
+gene_plus_CAB,cross_environment_drift,942,146,0.8483,0.5343,0.147,1.0821,0.4694,946.4,1096.69,-0.0885,0.8232,0.8893
+metadata-only,cross_environment_drift,942,146,0.5777,0.1866,0.243,1.0472,0.6755,1290.57,1334.2,-0.5662,0.5552,0.6219
