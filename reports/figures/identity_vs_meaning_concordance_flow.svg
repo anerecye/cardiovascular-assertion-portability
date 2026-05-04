@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+<rect width="100%" height="100%" fill="#fff"/>
+<text x="60" y="34" font-family="Arial" font-size="24" font-weight="700">CAB identity vs disease-meaning concordance</text>
+<text x="60" y="58" font-family="Arial" font-size="14">Complete source identity does not guarantee deterministic disease-meaning portability.</text>
+<rect x="70" y="70" width="300" height="80" rx="16" fill="#ffffff" stroke="#111" stroke-width="2"/>
+<text x="88" y="102" font-family="Arial" font-size="20" font-weight="700">26,725 source matched</text>
+<text x="88" y="128" font-family="Arial" font-size="13">External ClinVar source records resolved</text>
+<line x1="220.0" y1="150" x2="220.0" y2="190" stroke="#111" stroke-width="2"/>
+<polygon points="213.0,180 227.0,180 220.0,190" fill="#111"/>
+<rect x="70" y="190" width="300" height="80" rx="16" fill="#ffffff" stroke="#111" stroke-width="2"/>
+<text x="88" y="222" font-family="Arial" font-size="20" font-weight="700">26,725 gene/source accepted</text>
+<text x="88" y="248" font-family="Arial" font-size="13">VariationID + tokenized gene concordance</text>
+<line x1="220.0" y1="270" x2="220.0" y2="310" stroke="#111" stroke-width="2"/>
+<polygon points="213.0,300 227.0,300 220.0,310" fill="#111"/>
+<rect x="70" y="310" width="300" height="80" rx="16" fill="#ffffff" stroke="#111" stroke-width="2"/>
+<text x="88" y="342" font-family="Arial" font-size="20" font-weight="700">26,421 meaning accepted</text>
+<text x="88" y="368" font-family="Arial" font-size="13">Identity and phenotype-domain concordance</text>
+<line x1="220.0" y1="390" x2="220.0" y2="430" stroke="#111" stroke-width="2"/>
+<polygon points="213.0,420 227.0,420 220.0,430" fill="#111"/>
+<rect x="70" y="430" width="300" height="80" rx="16" fill="#f7f7f7" stroke="#111" stroke-width="2"/>
+<text x="88" y="462" font-family="Arial" font-size="20" font-weight="700">304 phenotype-domain discordant</text>
+<text x="88" y="488" font-family="Arial" font-size="13">Source accepted, meaning rejected</text>
+<line x1="220.0" y1="510" x2="220.0" y2="550" stroke="#111" stroke-width="2"/>
+<polygon points="213.0,540 227.0,540 220.0,550" fill="#111"/>
+<rect x="70" y="550" width="300" height="80" rx="16" fill="#f7f7f7" stroke="#111" stroke-width="2"/>
+<text x="88" y="582" font-family="Arial" font-size="20" font-weight="700">contextual repair or disease-specific review</text>
+<text x="88" y="608" font-family="Arial" font-size="13">No deterministic disease-meaning reuse</text>
+<rect x="450" y="160" width="680" height="310" rx="20" fill="#fafafa" stroke="#111" stroke-width="2"/>
+<text x="474" y="198" font-family="Arial" font-size="22" font-weight="700">Example inset: ARR_977320</text>
+<text x="474" y="236" font-family="Arial" font-size="16" font-weight="400">Source match: ClinVar VariationID 977320</text>
+<text x="474" y="266" font-family="Arial" font-size="16" font-weight="400">Gene concordance: KCNQ1 in KCNQ1;KCNQ1OT1;LOC106783508</text>
+<text x="474" y="296" font-family="Arial" font-size="16" font-weight="400">ClinVar phenotype: Silver-Russell syndrome 1</text>
+<text x="474" y="336" font-family="Arial" font-size="16" font-weight="700">QC flags</text>
+<text x="474" y="368" font-family="Arial" font-size="15" font-weight="400">source_match_accepted = True</text>
+<text x="474" y="394" font-family="Arial" font-size="15" font-weight="400">meaning_match_accepted = False</text>
+<text x="474" y="420" font-family="Arial" font-size="15" font-weight="400">routing_implication = contextual_repair_or_disease_specific_review</text>
+</svg>

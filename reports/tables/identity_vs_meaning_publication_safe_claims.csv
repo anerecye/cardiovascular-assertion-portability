@@ -1,0 +1,7 @@
+claim_type,claim_strength,claim_text,required_caveat
+allowed,identity_vs_meaning_primary,"Source identity and assertion meaning are separable layers. All 26,725 benchmark assertions were externally matched to ClinVar source records, but 304 source-accepted rows were disease-meaning rejected because phenotype-domain concordance failed.",Source matching does not imply deterministic disease-meaning portability.
+allowed,portability_boundary,Complete ClinVar source matching does not guarantee disease-domain portability.,CAB evaluates portability after source identity resolution; it does not reclassify variants.
+allowed,routing_consequence,CAB retains source matches but rejects deterministic meaning reuse when phenotype-domain concordance fails.,Phenotype-domain discordant rows require contextual repair or disease-specific review.
+forbidden,forbidden,CAB invalidates ClinVar records.,"Forbidden: these are source matches with meaning-portability failure, not invalid records."
+forbidden,forbidden,CAB reclassifies variants.,Forbidden: CAB does not alter pathogenicity classifications.
+forbidden,forbidden,CAB diagnoses phenotype mismatch.,Forbidden: CAB flags disease-domain portability risk; it does not diagnose.
