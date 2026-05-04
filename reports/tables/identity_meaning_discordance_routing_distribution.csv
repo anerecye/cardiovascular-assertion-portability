@@ -1,0 +1,7 @@
+subset,routing_action,N,percent
+full_benchmark,direct_or_unclassified,25783,0.9647521047708139
+full_benchmark,direct_source_match_only,638,0.023872778297474275
+full_benchmark,contextual_repair_or_disease_specific_review,304,0.01137511693171188
+excluding_304_meaning_rejected,direct_or_unclassified,25783,0.9758525415389274
+excluding_304_meaning_rejected,direct_source_match_only,638,0.02414745846107263
+meaning_rejected_only,contextual_repair_or_disease_specific_review,304,1.0
