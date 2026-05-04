@@ -1,0 +1,10 @@
+
+# CAB prospective registry raw downloads / local dry runs
+data/prospective/raw/
+data/prospective/*.gz
+data/prospective/*DRYRUN*
+scripts/*.bak_postcutoff
+
+# Python cache
+__pycache__/
+*.pyc
