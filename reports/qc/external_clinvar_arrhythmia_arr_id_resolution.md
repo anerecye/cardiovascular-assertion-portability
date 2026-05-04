@@ -6,7 +6,18 @@ The repaired external ClinVar join matched cardiomyopathy and hereditary cancer 
 
 ## Method
 
-For unmatched inherited-arrhythmia rows, this script extracted the numeric suffix from `ARR_*` identifiers and treated it as a candidate ClinVar `VariationID`. Candidate IDs were looked up in the downloaded ClinVar `variant_summary.txt.gz`. Resolutions were accepted when the candidate was found and the local gene was concordant, or when local gene was missing/unavailable.
+For unmatched inherited-arrhythmia rows, this script extracted the numeric suffix from `ARR_*` identifiers and treated it as a candidate ClinVar `VariationID`. Candidate IDs were looked up in the downloaded ClinVar `variant_summary.txt.gz`. Resolutions were accepted when the candidate was found and tokenized gene matching confirmed concordance.
+
+## Source-vs-meaning QC
+
+Rows can be valid external ClinVar source matches while failing disease/phenotype-domain meaning portability. Such rows are retained, not deleted, with:
+
+- `external_clinvar_match=True`
+- `source_match_accepted=True`
+- `phenotype_domain_concordant=False`
+- `phenotype_domain_discordance_flag=True`
+- `meaning_match_accepted=False`
+- `routing_implication=contextual_repair_or_disease_specific_review`
 
 ## Results
 
@@ -17,6 +28,8 @@ For unmatched inherited-arrhythmia rows, this script extracted the numeric suffi
 - ARR candidates found in downloaded ClinVar: 942
 - ARR gene-concordant rows: 942
 - ARR resolutions accepted: 942
+- phenotype-domain discordance flagged: 304
+- meaning matches rejected: 304
 - matched after ARR resolution: 26,725
 - unmatched after ARR resolution: 0
 - final match rate: 1.0000

@@ -1,2 +1,2 @@
-status,rows_total,matched_before,arr_rows_attempted,arr_suffix_candidates,arr_suffix_clinvar_found,arr_gene_concordant,arr_resolution_accepted,matched_after,unmatched_after,final_match_rate
-completed,26725,25783,942,942,942,942,942,26725,0,1.0
+status,rows_total,matched_before,arr_rows_attempted,arr_suffix_candidates,arr_suffix_clinvar_found,arr_gene_concordant,arr_resolution_accepted,phenotype_domain_discordance_flagged,meaning_match_rejected,matched_after,unmatched_after,final_match_rate
+completed,26725,25783,942,942,942,942,942,304,304,26725,0,1.0
