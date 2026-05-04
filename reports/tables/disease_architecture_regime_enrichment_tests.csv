@@ -1,0 +1,7 @@
+hypothesis,regime_name,regime_positive_N,regime_total_N,regime_rate,other_positive_N,other_total_N,other_rate,rate_difference,odds_ratio_Haldane_Anscombe,result
+phenotype_anchored_monogenic enriched for self-loop stability,Phenotype-anchored monogenic,712,756,0.9417989417989417,22150,25969,0.8529400438984943,0.08885889790044743,2.7608819543729073,supported_directionally
+pleiotropic_collision enriched for cross-environment drift,Pleiotropic collision,0,11,0.0,3863,26714,0.14460582466122632,-0.14460582466122632,0.2571615059559647,not_supported_directionally
+syndrome_organ_boundary enriched for cross-environment drift in hereditary cancer,Syndrome-organ boundary,0,408,0.0,3378,26317,0.12835809552760574,-0.12835809552760574,0.0083107069345014,not_supported_directionally
+genotype_first_absent_phenotype enriched for no deterministic reuse / PRF-needed,Genotype-first absent phenotype,0,0,,19426,26725,0.7268849391955098,,0.3757496203639359,not_supported_directionally
+modifier_penetrance_boundary enriched for population/penetrance review,Modifier/penetrance boundary,16125,16125,1.0,4740,10600,0.44716981132075473,0.5528301886792453,39870.6856871638,supported_directionally
+nonspecific_underresolved enriched for contextual repair,Nonspecific/underresolved,6308,7253,0.8697090858954916,15310,19472,0.7862571898110107,0.08345189608448089,1.8139672709342833,supported_directionally
