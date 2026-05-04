@@ -1,0 +1,9 @@
+check_id,check,failing_rows,expected_failing_rows,status
+1,nonspecific_underresolved with cab_strict_direct_use_allowed=True must be 0,0,0,pass
+2,meaning_match_accepted=False with cab_strict_direct_use_allowed=True must be 0,0,0,pass
+3,meaning_match_accepted=False with cab_balanced_direct_use_allowed=True must be 0,0,0,pass
+4,phenotype_domain_discordance_flag=True with any direct_use_allowed=True must be 0,0,0,pass
+5,source_match_accepted=False with any direct_use_allowed=True must be 0,0,0,pass
+6,genotype_first_absent_phenotype with any direct_use_allowed=True must be 0,0,0,pass
+7,CAB-Strict direct-use allowed rate <= CAB-Balanced direct-use allowed rate,0,0,pass
+8,Direct-use rows must have specific baseline environment,0,0,pass

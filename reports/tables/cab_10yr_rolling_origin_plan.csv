@@ -1,0 +1,18 @@
+origin_id,baseline_snapshot,followup_snapshot,horizon_months,baseline_era,followup_era,available yes/no,notes
+origin_2015_2016_12m,2015-12,2016-12,12,early ClinVar expansion,early ClinVar expansion,yes,Annual 12-month temporal backtesting window.
+origin_2016_2017_12m,2016-12,2017-12,12,early ClinVar expansion,pre-2018,yes,Annual 12-month temporal backtesting window.
+origin_2017_2018_12m,2017-12,2018-12,12,pre-2018,2018-2020,yes,Annual 12-month temporal backtesting window.
+origin_2018_2019_12m,2018-12,2019-12,12,2018-2020,2018-2020,yes,Annual 12-month temporal backtesting window.
+origin_2019_2020_12m,2019-12,2020-12,12,2018-2020,2018-2020,yes,Annual 12-month temporal backtesting window.
+origin_2020_2021_12m,2020-12,2021-12,12,2018-2020,2020-2023,yes,Annual 12-month temporal backtesting window.
+origin_2021_2022_12m,2021-12,2022-12,12,2020-2023,2020-2023,yes,Annual 12-month temporal backtesting window.
+origin_2022_2023_12m,2022-12,2023-12,12,2020-2023,2020-2023,yes,Annual 12-month temporal backtesting window.
+origin_2023_2024_12m,2023-12,2024-12,12,2020-2023,2023-2026,yes,Annual 12-month temporal backtesting window.
+origin_2024_2025_12m,2024-12,2025-12,12,2023-2026,2023-2026,yes,Annual 12-month temporal backtesting window.
+origin_2025_2026_12m,2025-04,2026-04,12,2023-2026,2023-2026,yes,Annual rolling-origin historical prospective emulation window. 2025→2026 uses April-to-April because 2026 December is unavailable.
+origin_2015_2017_24m,2015-12,2017-12,24,early ClinVar expansion,pre-2018,yes,Long-horizon temporal backtesting window; endpoints evaluated without baseline leakage.
+origin_2015_2020_60m,2015-12,2020-12,60,early ClinVar expansion,2018-2020,yes,Long-horizon temporal backtesting window; endpoints evaluated without baseline leakage.
+origin_2015_2025_120m,2015-12,2025-12,120,early ClinVar expansion,2023-2026,yes,Long-horizon temporal backtesting window; endpoints evaluated without baseline leakage.
+origin_2018_2020_24m,2018-12,2020-12,24,2018-2020,2018-2020,yes,Long-horizon temporal backtesting window; endpoints evaluated without baseline leakage.
+origin_2020_2023_36m,2020-12,2023-12,36,2018-2020,2020-2023,yes,Long-horizon temporal backtesting window; endpoints evaluated without baseline leakage.
+origin_2022_2026_48m,2022-04,2026-04,48,2020-2023,2023-2026,yes,Long-horizon temporal backtesting window; endpoints evaluated without baseline leakage.

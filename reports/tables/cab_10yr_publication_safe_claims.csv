@@ -1,0 +1,12 @@
+claim,status,publication_safe_note
+CAB disease-architecture regimes predict future assertion meaning drift across rolling historical origins.,allowed_if_supported,Supported as historical prospective emulation / temporal backtesting; see model comparison and regime signatures.
+Pathogenic meaning evolves over time according to disease architecture.,allowed_if_supported,Supported by longitudinal assertion evolution rates stratified by regime.
+Anchored regimes show persistent self-loop stability.,allowed_if_supported,Supported when phenotype-anchored monogenic self-loop rates exceed underresolved/modifier regimes.
+Underresolved/modifier/structural-overlap regimes show persistent non-portability or repair/review routing.,allowed_if_supported,Supported by unsupported reuse and review_repair_rate columns.
+CAB review queues enrich future boundary-crossing assertions across historical eras.,allowed_if_supported,Supported by review queue enrichment results across eras.
+CAB has true prospective validation.,forbidden,"This package is a 10-year rolling-origin validation / historical prospective emulation, not true prospective validation."
+CAB predicts clinical outcomes.,forbidden,"Endpoints are ClinVar assertion meaning drift, not patient outcomes."
+CAB predicts patient risk.,forbidden,No patient-level risk endpoint is modeled.
+CAB is clinically deployed.,forbidden,Research-use temporal backtesting only.
+CAB explains all ClinVar changes.,forbidden,ClinVar changes may reflect many processes outside CAB disease architecture.
+CAB replaces expert curation.,forbidden,CAB routes review/repair queues and does not replace expert adjudication.

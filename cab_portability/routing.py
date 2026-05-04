@@ -10,6 +10,44 @@ FAILURE_TOKENS = [
     "moderate", "nonportable", "low", "recessive", "biallelic", "overlap"
 ]
 
+STRICT_ALLOWED_REGIME_TOKENS = [
+    "phenotype_anchored_monogenic",
+    "phenotype-anchored monogenic",
+    "phenotype anchored monogenic",
+    "syndrome_anchored_self_loop",
+    "syndrome-anchored self-loop",
+]
+
+STRICT_BLOCKING_REGIME_TOKENS = [
+    "nonspecific_underresolved",
+    "nonspecific/underresolved",
+    "underresolved",
+    "modifier_penetrance_boundary",
+    "modifier/penetrance boundary",
+    "penetrance",
+    "structural_functional_overlap",
+    "structural-functional overlap",
+    "structural",
+    "syndrome_organ_boundary",
+    "syndrome-organ boundary",
+    "trigger_dependent_latent",
+    "trigger-dependent latent",
+    "pleiotropic_collision",
+    "pleiotropic collision",
+    "genotype_first_absent_phenotype",
+    "genotype-first absent phenotype",
+]
+
+BALANCED_BLOCKING_REGIME_TOKENS = [
+    "nonspecific_underresolved",
+    "nonspecific/underresolved",
+    "underresolved",
+    "genotype_first_absent_phenotype",
+    "genotype-first absent phenotype",
+    "no_deterministic_reuse",
+    "explicit no-deterministic-reuse",
+]
+
 TRUE_STRINGS = {"1", "true", "yes", "y", "t"}
 FALSE_STRINGS = {"0", "false", "no", "n", "f"}
 
@@ -54,6 +92,73 @@ def has_failure(row):
     return any(t in s for t in FAILURE_TOKENS)
 
 
+def architecture_text(row):
+    return " ".join([
+        str(get(row, ["disease_architecture_regime", "disease_architecture_regime_baseline"], "")),
+        str(get(row, ["cab_portability_regime", "baseline_regime_primary", "primary_regime"], "")),
+        str(get(row, ["baseline_architecture_family", "causal_architecture_category", "causal_architecture"], "")),
+        str(get(row, ["routing_implication"], "")),
+    ]).lower().replace("-", "_").replace("/", "_").replace(" ", "_")
+
+
+def has_any_token(text, tokens):
+    compact = text.lower().replace("-", "_").replace("/", "_").replace(" ", "_")
+    for token in tokens:
+        if token.lower().replace("-", "_").replace("/", "_").replace(" ", "_") in compact:
+            return True
+    return False
+
+
+def specific_environment(row):
+    env = str(get(row, ["baseline_environment", "environment_baseline"], "")).strip().lower()
+    condition = str(get(row, ["input_condition_label", "condition_label_baseline", "PhenotypeList", "condition", "condition_label"], "")).strip().lower()
+    text = f"{env} {condition}"
+    if not env:
+        return False
+    return not any(token in text for token in ["unknown", "not provided", "unavailable", "other/unknown", "not specified"])
+
+
+def identity_concordance_block(row):
+    source = parse_bool(get(row, ["source_match_accepted", "source_match_accepted_baseline", "external_clinvar_match"], "true"), default=True)
+    meaning = parse_bool(get(row, ["meaning_match_accepted", "meaning_match_accepted_baseline"], "true"), default=True)
+    discordant = parse_bool(get(row, ["phenotype_domain_discordance_flag"], "false"), default=False)
+    if not source:
+        return True, "source_match_rejected"
+    if not meaning:
+        return True, "meaning_match_rejected"
+    if discordant:
+        return True, "phenotype_domain_discordant"
+    return False, ""
+
+
+def final_direct_use_override(row, mode, candidate_direct, decision_source):
+    if mode == "ClinVar-label-only":
+        return candidate_direct, decision_source
+
+    blocked, reason = identity_concordance_block(row)
+    if blocked:
+        return False, reason
+
+    text = architecture_text(row)
+    if mode == "CAB-Strict":
+        if has_any_token(text, STRICT_BLOCKING_REGIME_TOKENS):
+            return False, "strict_blocking_disease_architecture_regime"
+        if not has_any_token(text, STRICT_ALLOWED_REGIME_TOKENS):
+            return False, "strict_requires_anchored_self_loop_regime"
+        if not specific_environment(row):
+            return False, "strict_requires_specific_concordant_environment"
+        return candidate_direct, decision_source
+
+    if mode == "CAB-Balanced":
+        if has_any_token(text, BALANCED_BLOCKING_REGIME_TOKENS):
+            repaired = parse_bool(get(row, ["contextual_repair_completed", "specific_context_repaired"], ""), default=False)
+            if not repaired:
+                return False, "balanced_blocking_unrepaired_regime"
+        return candidate_direct, decision_source
+
+    return candidate_direct, decision_source
+
+
 def strict_direct_from_final_or_fallback(row):
     explicit = get(row, [
         "cab_strict_direct_use_allowed",
@@ -96,9 +201,11 @@ def final_direct_for_mode(row, mode):
     if mode == "ClinVar-label-only":
         return clinvar_direct(row)
     if mode == "CAB-Strict":
-        return strict_direct_from_final_or_fallback(row)
+        direct, source = strict_direct_from_final_or_fallback(row)
+        return final_direct_use_override(row, mode, direct, source)
     if mode == "CAB-Balanced":
-        return balanced_direct_from_final_or_fallback(row)
+        direct, source = balanced_direct_from_final_or_fallback(row)
+        return final_direct_use_override(row, mode, direct, source)
     raise ValueError(f"unknown mode: {mode}")
 
 
@@ -115,7 +222,7 @@ def primary_action(direct, row, mode):
             return "contextual_repair"
 
     if has_failure(row):
-        return "disease_specific_review"
+        return "contextual_repair_or_disease_specific_review"
 
     score = fnum(get(row, ["cab_portability_score", "baseline_portability_score"], 60), 60)
     if score < 50:
@@ -213,4 +320,3 @@ def route_assertion(row, domain, mode):
 
 def route_rows(rows, domain, mode):
     return [route_assertion(r, domain, mode) for r in rows]
-
