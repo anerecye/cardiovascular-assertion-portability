@@ -1,0 +1,10 @@
+regime,regime_label,N,phenotype_anchoring,penetrance_modifier_dependence,disease_model_specificity,structural_system_overlap,genotype_first_inference_dependence,support_level,expected_meaning_mobility,dominant_routing
+phenotype_anchored_monogenic,Phenotype-anchored monogenic,756,0.9,0.2,0.9,0.2,0.1,strong_empirical_support,deterministic self-loop mobility,direct deterministic use within concordant self-loop
+syndrome_anchored,Syndrome-anchored,408,0.85,0.3,0.7,0.55,0.15,strong_empirical_support,self-loop stable but boundary-sensitive,self-loop stable but boundary-sensitive
+modifier_penetrance_boundary,Modifier/penetrance boundary,16125,0.45,0.95,0.65,0.3,0.45,strong_empirical_support,"conditional liability, not deterministic disease",population/penetrance review; PRF-needed
+nonspecific_underresolved,Nonspecific/underresolved,7253,0.15,0.45,0.15,0.4,0.35,strong_empirical_support,inference-limited; contextual repair required,contextual repair or disease-specific review
+structural_functional_overlap,Structural-functional overlap,2127,0.55,0.45,0.55,0.95,0.25,strong_empirical_support,domain repair across structural/functional systems,domain repair; disease-specific expert review
+syndrome_organ_boundary,Syndrome-organ boundary,408,0.65,0.55,0.45,0.7,0.3,strong_empirical_support,source identity accepted; meaning boundary,source identity accepted; contextual repair or disease-specific review
+trigger_dependent_latent,Trigger-dependent latent,45,0.5,0.8,0.65,0.45,0.45,underpowered_framework_category,trigger/context-dependent mobility,contextual repair; trigger/phenotype-context review
+pleiotropic_collision,Pleiotropic collision,11,0.4,0.55,0.35,0.75,0.25,underpowered_framework_category,disease-model collision; underpowered here,disease-specific review or contextual repair
+genotype_first_absent_phenotype,Genotype-first absent phenotype,0,0.1,0.9,0.35,0.35,1.0,absent_in_current_benchmark,absent/currently unsampled; PRF target,PRF-needed; no deterministic reuse

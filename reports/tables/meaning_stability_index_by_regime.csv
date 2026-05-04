@@ -1,0 +1,9 @@
+regime,regime_label,N,self_loop_stable_rate,cross_environment_drift_rate,review_repair_routing_rate,direct_use_allowed_rate,meaning_stability_index,portability_boundary_score,support_level
+phenotype_anchored_monogenic,Phenotype-anchored monogenic,756,0.9417989417989417,0.0582010582010582,0.4576719576719577,0.5423280423280423,0.8835978835978835,-0.02645502645502651,strong_empirical_support
+trigger_dependent_latent,Trigger-dependent latent,45,1.0,0.0,0.7333333333333333,0.26666666666666666,1.0,0.4666666666666666,underpowered_framework_category
+pleiotropic_collision,Pleiotropic collision,11,1.0,0.0,1.0,0.45454545454545453,1.0,0.5454545454545454,underpowered_framework_category
+syndrome_organ_boundary,Syndrome-organ boundary,408,0.9877450980392157,0.012254901960784314,0.4681372549019608,0.5637254901960784,0.9754901960784315,-0.08333333333333331,strong_empirical_support
+structural_functional_overlap,Structural-functional overlap,2127,0.9332393041842971,0.06676069581570286,0.997179125528914,0.0028208744710860366,0.8664786083685942,1.0611189468735307,strong_empirical_support
+genotype_first_absent_phenotype,Genotype-first absent phenotype,0,,,,,,,absent_in_current_benchmark
+modifier_penetrance_boundary,Modifier/penetrance boundary,16125,0.8544496124031008,0.14555038759689923,0.7830077519379844,0.3278139534883721,0.7088992248062016,0.6007441860465115,strong_empirical_support
+nonspecific_underresolved,Nonspecific/underresolved,7253,0.8173169722873294,0.18268302771267061,0.8837722321797876,0.18612987729215497,0.6346339445746587,0.8803253826003032,strong_empirical_support
