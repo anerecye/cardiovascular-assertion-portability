@@ -1,0 +1,11 @@
+original_path,quarantined_path,status,reason
+reports\tables\cab_core_vs_conservative_bootstrap_ci.csv,reports\deprecated\reports\tables\cab_core_vs_conservative_bootstrap_ci.csv,moved_to_deprecated,old operating-mode naming output; final names are CAB-Strict and CAB-Balanced
+reports\tables\cab_core_vs_conservative_by_domain.csv,reports\deprecated\reports\tables\cab_core_vs_conservative_by_domain.csv,moved_to_deprecated,old operating-mode naming output; final names are CAB-Strict and CAB-Balanced
+reports\tables\cab_core_vs_conservative_routing_metrics.csv,reports\deprecated\reports\tables\cab_core_vs_conservative_routing_metrics.csv,moved_to_deprecated,old operating-mode naming output; final names are CAB-Strict and CAB-Balanced
+reports\tables\domain_specific_cab_mode_recommendations.csv,reports\deprecated\reports\tables\domain_specific_cab_mode_recommendations.csv,moved_to_deprecated,old operating-mode naming output; final names are CAB-Strict and CAB-Balanced
+reports\tables\routing_publication_safe_claims_operating_modes.csv,reports\deprecated\reports\tables\routing_publication_safe_claims_operating_modes.csv,moved_to_deprecated,old operating-mode naming output; final names are CAB-Strict and CAB-Balanced
+reports\tables\routing_pareto_frontier.csv,reports\deprecated\reports\tables\routing_pareto_frontier.csv,moved_to_deprecated,old operating-mode naming output; final names are CAB-Strict and CAB-Balanced
+reports\qc\cab_operating_modes_definition.md,reports\deprecated\reports\qc\cab_operating_modes_definition.md,moved_to_deprecated,old operating-mode naming output; final names are CAB-Strict and CAB-Balanced
+reports\figures\cab_core_vs_conservative_tradeoff.svg,reports\deprecated\reports\figures\cab_core_vs_conservative_tradeoff.svg,moved_to_deprecated,old operating-mode naming output; final names are CAB-Strict and CAB-Balanced
+reports\figures\routing_pareto_frontier.svg,reports\deprecated\reports\figures\routing_pareto_frontier.svg,moved_to_deprecated,old operating-mode naming output; final names are CAB-Strict and CAB-Balanced
+reports\figures\final_cab_operating_modes_figure.svg,reports\deprecated\reports\figures\final_cab_operating_modes_figure.svg,moved_to_deprecated,old operating-mode naming output; final names are CAB-Strict and CAB-Balanced

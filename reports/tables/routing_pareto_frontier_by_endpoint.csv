@@ -1,0 +1,41 @@
+endpoint,cab_mode,unsupported_reuse_rate,overrestriction_rate,direct_use_allowed_rate,true_portable_allowed_rate,pareto_status,dominated_by,frontier_label
+any_meaning_drift,ClinVar-label-only,0.386155285313377,0.0,1.0,1.0,pareto_frontier,,
+any_meaning_drift,metadata-only,0.386155285313377,0.0,1.0,1.0,pareto_frontier,,
+any_meaning_drift,gene-only,0.08,0.4640598690364827,0.2297848456501403,0.2440109722645534,pareto_frontier,,
+any_meaning_drift,regime-only,0.0681010289990645,0.470533208606174,0.2114125350795135,0.2334654068881438,pareto_frontier,,
+any_meaning_drift,portability-score-only,0.2649953227315247,0.160823199251637,0.7180168381665107,0.7380067052727827,pareto_frontier,,
+any_meaning_drift,failure-topology-only,0.0681010289990645,0.470533208606174,0.2114125350795135,0.2334654068881438,pareto_frontier,,
+any_meaning_drift,CAB-Strict,0.0257062675397567,0.5586529466791393,0.0808980355472404,0.0899116123133191,pareto_frontier,,high-stringency frontier mode
+any_meaning_drift,CAB-Balanced,0.0861365762394761,0.4268662301216089,0.2731150608044901,0.304602255409936,pareto_frontier,,balanced frontier mode
+conservative_composite_routing,ClinVar-label-only,0.8568755846585594,0.0,1.0,1.0,dominated,regime-only;portability-score-only;failure-topology-only;CAB-Balanced,
+conservative_composite_routing,metadata-only,0.8568755846585594,0.0,1.0,1.0,dominated,regime-only;portability-score-only;failure-topology-only;CAB-Balanced,
+conservative_composite_routing,gene-only,0.1771749298409728,0.0905144995322731,0.2297848456501403,0.3675816993464052,dominated,regime-only;failure-topology-only;CAB-Strict;CAB-Balanced,
+conservative_composite_routing,regime-only,0.0682881197380729,0.0,0.2114125350795135,1.0,pareto_frontier,,
+conservative_composite_routing,portability-score-only,0.5748924228250701,0.0,0.7180168381665107,1.0,dominated,regime-only;failure-topology-only;CAB-Balanced,
+conservative_composite_routing,failure-topology-only,0.0682881197380729,0.0,0.2114125350795135,1.0,pareto_frontier,,
+conservative_composite_routing,CAB-Strict,0.0282881197380729,0.0905144995322731,0.0808980355472404,0.3675816993464052,pareto_frontier,,high-stringency frontier mode
+conservative_composite_routing,CAB-Balanced,0.1299906454630496,0.0,0.2731150608044901,1.0,dominated,regime-only;failure-topology-only,balanced mode dominated for this endpoint; report honestly
+cross_environment_drift,ClinVar-label-only,0.1445463049579045,0.0,1.0,1.0,pareto_frontier,,
+cross_environment_drift,metadata-only,0.1445463049579045,0.0,1.0,1.0,pareto_frontier,,
+cross_environment_drift,gene-only,0.0195696913002806,0.6452385406922357,0.2297848456501403,0.2457352812527338,pareto_frontier,,
+cross_environment_drift,regime-only,0.0106641721234798,0.6547053320860617,0.2114125350795135,0.2346688828623917,pareto_frontier,,
+cross_environment_drift,portability-score-only,0.0557156220767072,0.1931524789522918,0.7180168381665107,0.774210480272942,pareto_frontier,,
+cross_environment_drift,failure-topology-only,0.0106641721234798,0.6547053320860617,0.2114125350795135,0.2346688828623917,pareto_frontier,,
+cross_environment_drift,CAB-Strict,0.0016838166510757,0.7762394761459308,0.0808980355472404,0.0925990726970518,pareto_frontier,,high-stringency frontier mode
+cross_environment_drift,CAB-Balanced,0.0273152478952291,0.6096538821328344,0.2731150608044901,0.2873326918029918,pareto_frontier,,balanced frontier mode
+semantic_drift_without_reclassification,ClinVar-label-only,0.3692422825070159,0.0,1.0,1.0,pareto_frontier,,
+semantic_drift_without_reclassification,metadata-only,0.3692422825070159,0.0,1.0,1.0,pareto_frontier,,
+semantic_drift_without_reclassification,gene-only,0.0759214218896164,0.4768942937324602,0.2297848456501403,0.2439342706294121,dominated,CAB-Balanced,
+semantic_drift_without_reclassification,regime-only,0.0608044901777362,0.4801496725912067,0.2114125350795135,0.2387732099424571,pareto_frontier,,
+semantic_drift_without_reclassification,portability-score-only,0.2510383536014967,0.16377923292797,0.7180168381665107,0.7403452571631963,pareto_frontier,,
+semantic_drift_without_reclassification,failure-topology-only,0.0608044901777362,0.4801496725912067,0.2114125350795135,0.2387732099424571,pareto_frontier,,
+semantic_drift_without_reclassification,CAB-Strict,0.0241721234798877,0.5740318054256315,0.0808980355472404,0.0899329655336062,pareto_frontier,,high-stringency frontier mode
+semantic_drift_without_reclassification,CAB-Balanced,0.0745743685687558,0.4322170252572497,0.2731150608044901,0.3147653793676218,pareto_frontier,,balanced frontier mode
+temporal_condition_label_drift,ClinVar-label-only,0.3692422825070159,0.0,1.0,1.0,pareto_frontier,,
+temporal_condition_label_drift,metadata-only,0.3692422825070159,0.0,1.0,1.0,pareto_frontier,,
+temporal_condition_label_drift,gene-only,0.0759214218896164,0.4768942937324602,0.2297848456501403,0.2439342706294121,dominated,CAB-Balanced,
+temporal_condition_label_drift,regime-only,0.0608044901777362,0.4801496725912067,0.2114125350795135,0.2387732099424571,pareto_frontier,,
+temporal_condition_label_drift,portability-score-only,0.2510383536014967,0.16377923292797,0.7180168381665107,0.7403452571631963,pareto_frontier,,
+temporal_condition_label_drift,failure-topology-only,0.0608044901777362,0.4801496725912067,0.2114125350795135,0.2387732099424571,pareto_frontier,,
+temporal_condition_label_drift,CAB-Strict,0.0241721234798877,0.5740318054256315,0.0808980355472404,0.0899329655336062,pareto_frontier,,high-stringency frontier mode
+temporal_condition_label_drift,CAB-Balanced,0.0745743685687558,0.4322170252572497,0.2731150608044901,0.3147653793676218,pareto_frontier,,balanced frontier mode

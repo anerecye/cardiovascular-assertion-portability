@@ -1,0 +1,8 @@
+quarantined_wording,reason,replace_with,allowed_context
+CAB-Core,old mode name,CAB-Strict,crosswalk only
+CAB-Conservative,old mode name misleading,CAB-Balanced,crosswalk only
+full CAB is the best temporal model,contradicted by operating-frontier metrics,CAB-Strict minimizes temporal unsupported reuse; CAB-Balanced preserves more direct use,quarantine table only
+CAB eliminates unsupported reuse,"unsupported reuse reduced, not eliminated",CAB reduces unsupported deterministic reuse in internal benchmark,never as claim
+CAB validates clinical actionability,clinical validation absent,counterfactual routing benchmark / interpretation-safety framework,never as claim
+CAB clinical decision tool,not deployed or clinically validated,portability triage / routing framework,never as claim
+Composite routing benchmark is independent validation,composite includes routing/portability rules,internal operational stress test,never as claim
