@@ -1,0 +1,191 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="1280" viewBox="0 0 1700 1280">
+<rect width="100%" height="100%" fill="#fff"/>
+<text x="40" y="38" font-family="Arial" font-size="26" font-weight="700">Final disease-architecture portability regimes</text>
+<text x="40" y="64" font-family="Arial" font-size="14">Portability failures reveal recurrent architecture regimes, not arbitrary label churn.</text>
+<text x="40" y="110" font-family="Arial" font-size="20" font-weight="700">A. Pathogenicity vs portability vs penetrance</text>
+<rect x="50" y="130" width="260" height="80" rx="18" fill="#fafafa" stroke="#111"/>
+<text x="70" y="164" font-family="Arial" font-size="18" font-weight="700">Pathogenicity</text>
+<text x="70" y="190" font-family="Arial" font-size="13">variant-level classification</text>
+<rect x="350" y="130" width="260" height="80" rx="18" fill="#fafafa" stroke="#111"/>
+<text x="370" y="164" font-family="Arial" font-size="18" font-weight="700">Portability</text>
+<text x="370" y="190" font-family="Arial" font-size="13">disease-meaning travel</text>
+<rect x="650" y="130" width="260" height="80" rx="18" fill="#fafafa" stroke="#111"/>
+<text x="670" y="164" font-family="Arial" font-size="18" font-weight="700">Penetrance</text>
+<text x="670" y="190" font-family="Arial" font-size="13">phenotype realization/risk</text>
+<text x="40" y="260" font-family="Arial" font-size="20" font-weight="700">B. Disease-architecture regimes and meaning-travel rules</text>
+<text x="60" y="295" font-family="Arial" font-size="13" font-weight="700">Phenotype-anchored monogenic</text>
+<text x="330" y="295" font-family="Arial" font-size="13">direct deterministic use within concordant self-loop</text>
+<text x="60" y="327" font-family="Arial" font-size="13" font-weight="700">Trigger-dependent latent</text>
+<text x="330" y="327" font-family="Arial" font-size="13">contextual repair; trigger/phenotype-context review</text>
+<text x="60" y="359" font-family="Arial" font-size="13" font-weight="700">Pleiotropic collision</text>
+<text x="330" y="359" font-family="Arial" font-size="13">disease-specific review or contextual repair</text>
+<text x="60" y="391" font-family="Arial" font-size="13" font-weight="700">Syndrome-organ boundary</text>
+<text x="330" y="391" font-family="Arial" font-size="13">source_identity_accepted; contextual_repair_or_disease_specific_review</text>
+<text x="60" y="423" font-family="Arial" font-size="13" font-weight="700">Structural-functional overlap</text>
+<text x="330" y="423" font-family="Arial" font-size="13">domain repair; disease-specific expert review</text>
+<text x="60" y="455" font-family="Arial" font-size="13" font-weight="700">Genotype-first absent phenotype</text>
+<text x="330" y="455" font-family="Arial" font-size="13">PRF-needed; phenotype ascertainment review; no deterministic reuse</text>
+<text x="60" y="487" font-family="Arial" font-size="13" font-weight="700">Modifier/penetrance boundary</text>
+<text x="330" y="487" font-family="Arial" font-size="13">population/penetrance review; PRF-needed</text>
+<text x="60" y="519" font-family="Arial" font-size="13" font-weight="700">Nonspecific/underresolved</text>
+<text x="330" y="519" font-family="Arial" font-size="13">contextual repair or disease-specific review</text>
+<text x="900" y="110" font-family="Arial" font-size="20" font-weight="700">C. Temporal signatures by regime</text>
+<text x="900" y="159" font-family="Arial" font-size="12">Phenotype-anchored monogenic</text>
+<rect x="1160" y="145" width="58" height="18" fill="rgb(202,202,202)" stroke="#111"/>
+<text x="1160" y="179" font-family="Arial" font-size="10">0.21</text>
+<rect x="1232" y="145" width="58" height="18" fill="rgb(233,233,233)" stroke="#111"/>
+<text x="1232" y="179" font-family="Arial" font-size="10">0.06</text>
+<rect x="1304" y="145" width="58" height="18" fill="rgb(153,153,153)" stroke="#111"/>
+<text x="1304" y="179" font-family="Arial" font-size="10">0.46</text>
+<text x="900" y="201" font-family="Arial" font-size="12">Trigger-dependent latent</text>
+<rect x="1160" y="187" width="58" height="18" fill="rgb(116,116,116)" stroke="#111"/>
+<text x="1160" y="221" font-family="Arial" font-size="10">0.64</text>
+<rect x="1232" y="187" width="58" height="18" fill="rgb(245,245,245)" stroke="#111"/>
+<text x="1232" y="221" font-family="Arial" font-size="10">0.00</text>
+<rect x="1304" y="187" width="58" height="18" fill="rgb(98,98,98)" stroke="#111"/>
+<text x="1304" y="221" font-family="Arial" font-size="10">0.73</text>
+<text x="900" y="243" font-family="Arial" font-size="12">Pleiotropic collision</text>
+<rect x="1160" y="229" width="58" height="18" fill="rgb(226,226,226)" stroke="#111"/>
+<text x="1160" y="263" font-family="Arial" font-size="10">0.09</text>
+<rect x="1232" y="229" width="58" height="18" fill="rgb(245,245,245)" stroke="#111"/>
+<text x="1232" y="263" font-family="Arial" font-size="10">0.00</text>
+<rect x="1304" y="229" width="58" height="18" fill="rgb(45,45,45)" stroke="#111"/>
+<text x="1304" y="263" font-family="Arial" font-size="10">1.00</text>
+<text x="900" y="285" font-family="Arial" font-size="12">Syndrome-organ boundary</text>
+<rect x="1160" y="271" width="58" height="18" fill="rgb(206,206,206)" stroke="#111"/>
+<text x="1160" y="305" font-family="Arial" font-size="10">0.19</text>
+<rect x="1232" y="271" width="58" height="18" fill="rgb(242,242,242)" stroke="#111"/>
+<text x="1232" y="305" font-family="Arial" font-size="10">0.01</text>
+<rect x="1304" y="271" width="58" height="18" fill="rgb(151,151,151)" stroke="#111"/>
+<text x="1304" y="305" font-family="Arial" font-size="10">0.47</text>
+<text x="900" y="327" font-family="Arial" font-size="12">Structural-functional overlap</text>
+<rect x="1160" y="313" width="58" height="18" fill="rgb(187,187,187)" stroke="#111"/>
+<text x="1160" y="347" font-family="Arial" font-size="10">0.29</text>
+<rect x="1232" y="313" width="58" height="18" fill="rgb(231,231,231)" stroke="#111"/>
+<text x="1232" y="347" font-family="Arial" font-size="10">0.07</text>
+<rect x="1304" y="313" width="58" height="18" fill="rgb(45,45,45)" stroke="#111"/>
+<text x="1304" y="347" font-family="Arial" font-size="10">1.00</text>
+<text x="900" y="369" font-family="Arial" font-size="12">Genotype-first absent phenotype</text>
+<rect x="1160" y="355" width="58" height="18" fill="rgb(245,245,245)" stroke="#111"/>
+<text x="1160" y="389" font-family="Arial" font-size="10">0.00</text>
+<rect x="1232" y="355" width="58" height="18" fill="rgb(245,245,245)" stroke="#111"/>
+<text x="1232" y="389" font-family="Arial" font-size="10">0.00</text>
+<rect x="1304" y="355" width="58" height="18" fill="rgb(245,245,245)" stroke="#111"/>
+<text x="1304" y="389" font-family="Arial" font-size="10">0.00</text>
+<text x="900" y="411" font-family="Arial" font-size="12">Modifier/penetrance boundary</text>
+<rect x="1160" y="397" width="58" height="18" fill="rgb(191,191,191)" stroke="#111"/>
+<text x="1160" y="431" font-family="Arial" font-size="10">0.27</text>
+<rect x="1232" y="397" width="58" height="18" fill="rgb(215,215,215)" stroke="#111"/>
+<text x="1232" y="431" font-family="Arial" font-size="10">0.15</text>
+<rect x="1304" y="397" width="58" height="18" fill="rgb(88,88,88)" stroke="#111"/>
+<text x="1304" y="431" font-family="Arial" font-size="10">0.78</text>
+<text x="900" y="453" font-family="Arial" font-size="12">Nonspecific/underresolved</text>
+<rect x="1160" y="439" width="58" height="18" fill="rgb(115,115,115)" stroke="#111"/>
+<text x="1160" y="473" font-family="Arial" font-size="10">0.65</text>
+<rect x="1232" y="439" width="58" height="18" fill="rgb(208,208,208)" stroke="#111"/>
+<text x="1232" y="473" font-family="Arial" font-size="10">0.18</text>
+<rect x="1304" y="439" width="58" height="18" fill="rgb(68,68,68)" stroke="#111"/>
+<text x="1304" y="473" font-family="Arial" font-size="10">0.88</text>
+<text x="1160" y="130" font-family="Arial" font-size="11">condition</text>
+<text x="1232" y="130" font-family="Arial" font-size="11">cross</text>
+<text x="1304" y="130" font-family="Arial" font-size="11">repair</text>
+<text x="900" y="540" font-family="Arial" font-size="20" font-weight="700">D. Cross-domain recurrence matrix</text>
+<text x="1130" y="563" font-family="Arial" font-size="11">inherited_arrhythmia</text>
+<text x="1250" y="563" font-family="Arial" font-size="11">cardiomyopathy</text>
+<text x="1370" y="563" font-family="Arial" font-size="11">hereditary_cancer</text>
+<text x="900" y="592" font-family="Arial" font-size="12">Phenotype-anchored monogenic</text>
+<rect x="1150" y="575" width="24" height="24" fill="#fff" stroke="#111"/>
+<rect x="1270" y="575" width="24" height="24" fill="#111" stroke="#111"/>
+<rect x="1390" y="575" width="24" height="24" fill="#fff" stroke="#111"/>
+<text x="900" y="626" font-family="Arial" font-size="12">Trigger-dependent latent</text>
+<rect x="1150" y="609" width="24" height="24" fill="#111" stroke="#111"/>
+<rect x="1270" y="609" width="24" height="24" fill="#fff" stroke="#111"/>
+<rect x="1390" y="609" width="24" height="24" fill="#fff" stroke="#111"/>
+<text x="900" y="660" font-family="Arial" font-size="12">Pleiotropic collision</text>
+<rect x="1150" y="643" width="24" height="24" fill="#111" stroke="#111"/>
+<rect x="1270" y="643" width="24" height="24" fill="#fff" stroke="#111"/>
+<rect x="1390" y="643" width="24" height="24" fill="#fff" stroke="#111"/>
+<text x="900" y="694" font-family="Arial" font-size="12">Syndrome-organ boundary</text>
+<rect x="1150" y="677" width="24" height="24" fill="#111" stroke="#111"/>
+<rect x="1270" y="677" width="24" height="24" fill="#111" stroke="#111"/>
+<rect x="1390" y="677" width="24" height="24" fill="#fff" stroke="#111"/>
+<text x="900" y="728" font-family="Arial" font-size="12">Structural-functional overlap</text>
+<rect x="1150" y="711" width="24" height="24" fill="#111" stroke="#111"/>
+<rect x="1270" y="711" width="24" height="24" fill="#111" stroke="#111"/>
+<rect x="1390" y="711" width="24" height="24" fill="#fff" stroke="#111"/>
+<text x="900" y="762" font-family="Arial" font-size="12">Genotype-first absent phenotype</text>
+<rect x="1150" y="745" width="24" height="24" fill="#fff" stroke="#111"/>
+<rect x="1270" y="745" width="24" height="24" fill="#fff" stroke="#111"/>
+<rect x="1390" y="745" width="24" height="24" fill="#fff" stroke="#111"/>
+<text x="900" y="796" font-family="Arial" font-size="12">Modifier/penetrance boundary</text>
+<rect x="1150" y="779" width="24" height="24" fill="#fff" stroke="#111"/>
+<rect x="1270" y="779" width="24" height="24" fill="#fff" stroke="#111"/>
+<rect x="1390" y="779" width="24" height="24" fill="#111" stroke="#111"/>
+<text x="900" y="830" font-family="Arial" font-size="12">Nonspecific/underresolved</text>
+<rect x="1150" y="813" width="24" height="24" fill="#111" stroke="#111"/>
+<rect x="1270" y="813" width="24" height="24" fill="#111" stroke="#111"/>
+<rect x="1390" y="813" width="24" height="24" fill="#111" stroke="#111"/>
+<text x="40" y="650" font-family="Arial" font-size="20" font-weight="700">E. Self-loop vs boundary-crossing examples</text>
+<rect x="60" y="666" width="760" height="48" rx="12" fill="#fafafa" stroke="#111"/>
+<text x="80" y="690" font-family="Arial" font-size="14" font-weight="700">self-loop: Phenotype-anchored monogenic</text>
+<text x="420" y="690" font-family="Arial" font-size="13">direct deterministic use within concordant disease model</text>
+<rect x="60" y="730" width="760" height="48" rx="12" fill="#fafafa" stroke="#111"/>
+<text x="80" y="754" font-family="Arial" font-size="14" font-weight="700">boundary: Syndrome-organ boundary</text>
+<text x="420" y="754" font-family="Arial" font-size="13">source accepted; disease-meaning rejected or repaired</text>
+<rect x="60" y="794" width="760" height="48" rx="12" fill="#fafafa" stroke="#111"/>
+<text x="80" y="818" font-family="Arial" font-size="14" font-weight="700">conditional risk: Modifier/penetrance boundary</text>
+<text x="420" y="818" font-family="Arial" font-size="13">PRF-needed; population/penetrance review</text>
+<text x="900" y="900" font-family="Arial" font-size="20" font-weight="700">F. Routing consequence by regime</text>
+<text x="920" y="935" font-family="Arial" font-size="12" font-weight="700">Phenotype-anchored monogenic</text>
+<text x="1190" y="935" font-family="Arial" font-size="12">direct deterministic use within concordant self-loop</text>
+<text x="920" y="963" font-family="Arial" font-size="12" font-weight="700">Trigger-dependent latent</text>
+<text x="1190" y="963" font-family="Arial" font-size="12">contextual repair; trigger/phenotype-context review</text>
+<text x="920" y="991" font-family="Arial" font-size="12" font-weight="700">Pleiotropic collision</text>
+<text x="1190" y="991" font-family="Arial" font-size="12">disease-specific review or contextual repair</text>
+<text x="920" y="1019" font-family="Arial" font-size="12" font-weight="700">Syndrome-organ boundary</text>
+<text x="1190" y="1019" font-family="Arial" font-size="12">source_identity_accepted; contextual_repair_or_disease_</text>
+<text x="920" y="1047" font-family="Arial" font-size="12" font-weight="700">Structural-functional overlap</text>
+<text x="1190" y="1047" font-family="Arial" font-size="12">domain repair; disease-specific expert review</text>
+<text x="920" y="1075" font-family="Arial" font-size="12" font-weight="700">Genotype-first absent phenotype</text>
+<text x="1190" y="1075" font-family="Arial" font-size="12">PRF-needed; phenotype ascertainment review; no determin</text>
+<text x="920" y="1103" font-family="Arial" font-size="12" font-weight="700">Modifier/penetrance boundary</text>
+<text x="1190" y="1103" font-family="Arial" font-size="12">population/penetrance review; PRF-needed</text>
+<text x="920" y="1131" font-family="Arial" font-size="12" font-weight="700">Nonspecific/underresolved</text>
+<text x="1190" y="1131" font-family="Arial" font-size="12">contextual repair or disease-specific review</text>
+
+<!-- Support-level overlay -->
+<text x="40" y="1040" font-family="Arial" font-size="20" font-weight="700">Support-level overlay</text>
+<text x="40" y="1064" font-family="Arial" font-size="13">Regimes are tiered by empirical support in the current benchmark, not treated as equally validated.</text>
+<rect x="40" y="1070" width="740" height="30" rx="8" fill="#d9d9d9" stroke="#111"/>
+<text x="52" y="1090" font-family="Arial" font-size="12" font-weight="700">Modifier/penetrance boundary</text>
+<text x="315" y="1090" font-family="Arial" font-size="12">strong_empirical_support</text>
+<text x="575" y="1090" font-family="Arial" font-size="12">N=16125</text>
+<rect x="820" y="1070" width="740" height="30" rx="8" fill="#d9d9d9" stroke="#111"/>
+<text x="832" y="1090" font-family="Arial" font-size="12" font-weight="700">Nonspecific/underresolved</text>
+<text x="1095" y="1090" font-family="Arial" font-size="12">strong_empirical_support</text>
+<text x="1355" y="1090" font-family="Arial" font-size="12">N=7253</text>
+<rect x="40" y="1108" width="740" height="30" rx="8" fill="#d9d9d9" stroke="#111"/>
+<text x="52" y="1128" font-family="Arial" font-size="12" font-weight="700">Structural-functional overlap</text>
+<text x="315" y="1128" font-family="Arial" font-size="12">strong_empirical_support</text>
+<text x="575" y="1128" font-family="Arial" font-size="12">N=2127</text>
+<rect x="820" y="1108" width="740" height="30" rx="8" fill="#d9d9d9" stroke="#111"/>
+<text x="832" y="1128" font-family="Arial" font-size="12" font-weight="700">Phenotype-anchored monogenic</text>
+<text x="1095" y="1128" font-family="Arial" font-size="12">strong_empirical_support</text>
+<text x="1355" y="1128" font-family="Arial" font-size="12">N=756</text>
+<rect x="40" y="1146" width="740" height="30" rx="8" fill="#d9d9d9" stroke="#111"/>
+<text x="52" y="1166" font-family="Arial" font-size="12" font-weight="700">Syndrome-organ boundary</text>
+<text x="315" y="1166" font-family="Arial" font-size="12">strong_empirical_support</text>
+<text x="575" y="1166" font-family="Arial" font-size="12">N=408</text>
+<rect x="820" y="1146" width="740" height="30" rx="8" fill="#ffffff" stroke="#111"/>
+<text x="832" y="1166" font-family="Arial" font-size="12" font-weight="700">Trigger-dependent latent</text>
+<text x="1095" y="1166" font-family="Arial" font-size="12">underpowered_framework_category</text>
+<text x="1355" y="1166" font-family="Arial" font-size="12">N=45</text>
+<rect x="40" y="1184" width="740" height="30" rx="8" fill="#ffffff" stroke="#111"/>
+<text x="52" y="1204" font-family="Arial" font-size="12" font-weight="700">Pleiotropic collision</text>
+<text x="315" y="1204" font-family="Arial" font-size="12">underpowered_framework_category</text>
+<text x="575" y="1204" font-family="Arial" font-size="12">N=11</text>
+<rect x="820" y="1184" width="740" height="30" rx="8" fill="#f8f8f8" stroke="#111"/>
+<text x="832" y="1204" font-family="Arial" font-size="12" font-weight="700">Genotype-first absent phenotype</text>
+<text x="1095" y="1204" font-family="Arial" font-size="12">absent_in_current_benchmark</text>
+<text x="1355" y="1204" font-family="Arial" font-size="12">N=0</text>
+</svg>
