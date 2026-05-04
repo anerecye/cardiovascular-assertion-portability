@@ -1,0 +1,4 @@
+domain,status,rows,matched_decision_rows,matched_decision_rate,balanced_direct_use_rate,strict_direct_use_rate,balanced_source_ready_for_cli
+inherited_arrhythmia,synced,942,942,1.0,0.42144373673036095,0.6762208067940552,True
+cardiomyopathy,synced,4918,4918,1.0,0.12281415209434729,0.12281415209434729,True
+hereditary_cancer,synced,20865,20865,1.0,0.30184519530313925,0.044140905823148814,True

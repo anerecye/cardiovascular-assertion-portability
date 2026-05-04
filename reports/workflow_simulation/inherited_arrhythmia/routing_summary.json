@@ -1,0 +1,39 @@
+{
+  "domain": "inherited_arrhythmia",
+  "aligned_N": 942,
+  "metrics": [
+    {
+      "mode": "ClinVar-label-only",
+      "N": 942,
+      "endpoint_positive_N": 365,
+      "unsupported_reuse_rate": 0.3874734607218684,
+      "direct_use_allowed_rate": 1.0,
+      "true_portable_allowed_rate": 1.0,
+      "false_restriction_rate": 0.0,
+      "overrestriction_rate": 0.0
+    },
+    {
+      "mode": "CAB-Strict",
+      "N": 942,
+      "endpoint_positive_N": 365,
+      "unsupported_reuse_rate": 0.1740976645435244,
+      "direct_use_allowed_rate": 0.6762208067940552,
+      "true_portable_allowed_rate": 0.8197573656845754,
+      "false_restriction_rate": 0.18024263431542462,
+      "overrestriction_rate": 0.11040339702760085
+    },
+    {
+      "mode": "CAB-Balanced",
+      "N": 942,
+      "endpoint_positive_N": 365,
+      "unsupported_reuse_rate": 0.021231422505307854,
+      "direct_use_allowed_rate": 0.42144373673036095,
+      "true_portable_allowed_rate": 0.6533795493934142,
+      "false_restriction_rate": 0.3466204506065858,
+      "overrestriction_rate": 0.21231422505307856
+    }
+  ],
+  "not_clinical_use": true,
+  "routing_decision_lock": "uses direct_single_model_reuse_allowed for CAB-Balanced when present; uses explicit or gene/regime final rule for CAB-Strict",
+  "endpoint_source": "benchmark\\inherited_arrhythmia\\temporal_endpoints.csv"
+}

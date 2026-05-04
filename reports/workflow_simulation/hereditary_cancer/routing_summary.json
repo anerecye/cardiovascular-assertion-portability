@@ -1,0 +1,39 @@
+{
+  "domain": "hereditary_cancer",
+  "aligned_N": 20865,
+  "metrics": [
+    {
+      "mode": "ClinVar-label-only",
+      "N": 20865,
+      "endpoint_positive_N": 7602,
+      "unsupported_reuse_rate": 0.3643421998562186,
+      "direct_use_allowed_rate": 1.0,
+      "true_portable_allowed_rate": 1.0,
+      "false_restriction_rate": 0.0,
+      "overrestriction_rate": 0.0
+    },
+    {
+      "mode": "CAB-Strict",
+      "N": 20865,
+      "endpoint_positive_N": 7602,
+      "unsupported_reuse_rate": 0.013850946561226936,
+      "direct_use_allowed_rate": 0.044140905823148814,
+      "true_portable_allowed_rate": 0.04765136092889995,
+      "false_restriction_rate": 0.9523486390711,
+      "overrestriction_rate": 0.6053678408818596
+    },
+    {
+      "mode": "CAB-Balanced",
+      "N": 20865,
+      "endpoint_positive_N": 7602,
+      "unsupported_reuse_rate": 0.08531032830098251,
+      "direct_use_allowed_rate": 0.30184519530313925,
+      "true_portable_allowed_rate": 0.34064691246324363,
+      "false_restriction_rate": 0.6593530875367564,
+      "overrestriction_rate": 0.41912293314162474
+    }
+  ],
+  "not_clinical_use": true,
+  "routing_decision_lock": "uses direct_single_model_reuse_allowed for CAB-Balanced when present; uses explicit or gene/regime final rule for CAB-Strict",
+  "endpoint_source": "benchmark\\hereditary_cancer\\temporal_endpoints.csv"
+}

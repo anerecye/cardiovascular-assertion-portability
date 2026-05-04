@@ -1,0 +1,39 @@
+{
+  "domain": "cardiomyopathy",
+  "aligned_N": 4918,
+  "metrics": [
+    {
+      "mode": "ClinVar-label-only",
+      "N": 4918,
+      "endpoint_positive_N": 1901,
+      "unsupported_reuse_rate": 0.3865392435949573,
+      "direct_use_allowed_rate": 1.0,
+      "true_portable_allowed_rate": 1.0,
+      "false_restriction_rate": 0.0,
+      "overrestriction_rate": 0.0
+    },
+    {
+      "mode": "CAB-Strict",
+      "N": 4918,
+      "endpoint_positive_N": 1901,
+      "unsupported_reuse_rate": 0.03924359495729972,
+      "direct_use_allowed_rate": 0.12281415209434729,
+      "true_portable_allowed_rate": 0.13622804110043088,
+      "false_restriction_rate": 0.8637719588995691,
+      "overrestriction_rate": 0.5298901992679951
+    },
+    {
+      "mode": "CAB-Balanced",
+      "N": 4918,
+      "endpoint_positive_N": 1901,
+      "unsupported_reuse_rate": 0.03924359495729972,
+      "direct_use_allowed_rate": 0.12281415209434729,
+      "true_portable_allowed_rate": 0.13622804110043088,
+      "false_restriction_rate": 0.8637719588995691,
+      "overrestriction_rate": 0.5298901992679951
+    }
+  ],
+  "not_clinical_use": true,
+  "routing_decision_lock": "uses direct_single_model_reuse_allowed for CAB-Balanced when present; uses explicit or gene/regime final rule for CAB-Strict",
+  "endpoint_source": "benchmark\\cardiomyopathy\\temporal_endpoints.csv"
+}
