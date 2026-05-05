@@ -1,0 +1,13 @@
+claim_type,claim_text,allowed_or_forbidden,evidence_basis,caveat
+allowed,CAB can frame SADS as an assertion-portability problem rather than a variant-classification-only problem.,allowed,CAB/PRF portability theory; SADS use-case table; external comparator/rationale support,does not validate outcome prediction or cause-of-death inference
+allowed,CAB can distinguish postmortem cause-of-death relevance from predictive family-risk relevance.,allowed,postmortem/family-risk context separation in CAB use-case framing,does not predict individual family-member risk
+allowed,CAB can route genotype-first / phenotype-negative relatives to PRF-needed rather than deterministic disease reuse.,allowed,PRF framing and genotype-first absent phenotype regime,does not estimate penetrance or diagnose relatives
+allowed,CAB complements disease-specific channelopathy curation by auditing portability after classification.,allowed,ClinGen channelopathy VCEP external comparator support,does not replace ClinGen/VCEP or have ClinGen validation
+allowed,"Brugada/SADS is a high-value portability boundary because pathogenic meaning may depend on phenotype, trigger/provocation, penetrance, and disease model.",allowed,Brugada/SADS rationale and SCN5A/channelopathy disease-model specificity,does not validate Brugada risk prediction
+forbidden,CAB proves cause of death.,forbidden,outside CAB/PRF scope,must not be used
+forbidden,CAB predicts sudden death.,forbidden,outside CAB/PRF scope,must not be used
+forbidden,CAB predicts individual family-member risk.,forbidden,outside CAB/PRF scope,must not be used
+forbidden,CAB validates SADS genotype-first risk.,forbidden,outside CAB/PRF scope,must not be used
+forbidden,CAB replaces ClinGen/VCEP or expert curation.,forbidden,outside CAB/PRF scope,must not be used
+forbidden,CAB is clinically validated for postmortem interpretation.,forbidden,outside CAB/PRF scope,must not be used
+forbidden,CAB improves patient outcomes or family outcomes.,forbidden,outside CAB/PRF scope,must not be used
