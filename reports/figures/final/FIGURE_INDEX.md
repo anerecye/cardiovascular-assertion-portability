@@ -19,4 +19,4 @@
 | Supplementary Figure 7 | External evidence stack | Proxy evidence resources and claim strengths | reports/figure_source_tables/SupplementaryFigure7_source_data.csv | scripts/figures/generate_cab_publication_figures.py::supplementary_external_evidence | External evidence supports framing and feasibility, not clinical validation. | No external resource validates CAB as clinical decision support. |
 | Supplementary Figure 8 | SADS portability grammar | PRF requirement distribution across SADS use cases | reports/figure_source_tables/SupplementaryFigure8_source_data.csv | scripts/figures/generate_cab_publication_figures.py::supplementary_sads_grammar | SADS requires explicit portability grammar across non-equivalent contexts. | CAB does not infer cause of death or predict sudden death. |
 
-All figures are exported as SVG and PDF with white backgrounds. Source tables are exported in reports/figure_source_tables/.
+All figures are exported as SVG, PDF, and PNG with white backgrounds. Source tables are exported in reports/figure_source_tables/.

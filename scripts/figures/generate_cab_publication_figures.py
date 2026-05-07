@@ -96,6 +96,7 @@ def fmt_pct(value: object, digits: int = 2) -> str:
 def save_figure(fig: plt.Figure, stem: str) -> None:
     fig.savefig(FIG_DIR / f"{stem}.svg", format="svg", facecolor="white", bbox_inches="tight")
     fig.savefig(FIG_DIR / f"{stem}.pdf", format="pdf", facecolor="white", bbox_inches="tight")
+    fig.savefig(FIG_DIR / f"{stem}.png", format="png", dpi=300, facecolor="white", bbox_inches="tight")
     plt.close(fig)
 
 
@@ -1187,7 +1188,7 @@ def write_figure_index() -> None:
         "|---|---|---|---|---|---|---|",
         *rows,
         "",
-        "All figures are exported as SVG and PDF with white backgrounds. Source tables are exported in reports/figure_source_tables/.",
+        "All figures are exported as SVG, PDF, and PNG with white backgrounds. Source tables are exported in reports/figure_source_tables/.",
     ]
     (FIG_DIR / "FIGURE_INDEX.md").write_text("\n".join(text) + "\n", encoding="utf-8")
 
