@@ -1,0 +1,12 @@
+{
+  "domain": "inherited_arrhythmia",
+  "aligned_N": 942,
+  "baseline_snapshot": "2023-01",
+  "followup_snapshot": "2026-04",
+  "condition_label_change_rate": 0.3874734607218684,
+  "cross_environment_drift_rate": 0.0,
+  "any_meaning_drift_rate": 0.3874734607218684,
+  "classification_change_rate": 0.0,
+  "semantic_drift_without_reclassification_rate": 0.3874734607218684,
+  "notes": "Full export materialized from data/processed/cab_decision_challenge_tasks.csv. Baseline assertions are baseline-only. Temporal endpoints are stored separately."
+}

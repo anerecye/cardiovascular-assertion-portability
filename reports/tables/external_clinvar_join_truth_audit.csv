@@ -1,0 +1,2 @@
+status,rows,explicit_external_clinvar_match_true,rows_with_any_external_clinvar_fields,rows_with_numeric_variation_id_in_join_file,interpretation,repair_status,benchmark_rows,mapped_rows,true_external_matches,true_external_match_rate,mapping_sources
+audited,26725,0,0,0,left_join_only_not_true_match,completed,26725,25783,25783,0.9647521047708139,data\processed\cancer_assertion_master.csv; data\processed\cardiomyopathy_baseline_only_regimes.csv

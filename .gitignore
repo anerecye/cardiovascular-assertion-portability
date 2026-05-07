@@ -5,6 +5,11 @@ data/prospective/*.gz
 data/prospective/*DRYRUN*
 scripts/*.bak_postcutoff
 
+# Large raw/parsed ClinVar snapshots that exceed normal GitHub file limits
+data/processed/clinvar_snapshot_*.csv
+data/processed/external/*.tsv
+data/raw/external/clinvar/*.gz
+
 # Python cache
 __pycache__/
 *.pyc

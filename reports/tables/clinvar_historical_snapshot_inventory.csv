@@ -1,0 +1,13 @@
+snapshot_date,file_available,source_url_or_path,file_type,md5_or_sha256,variant_summary_available,submission_summary_available,submission_summary_source,XML_available,XML_source,notes
+2015,no,,variant_summary.txt.gz,,no,no,,no,,monthly archive preferred; annual origin uses selected monthly snapshot
+2016,no,,variant_summary.txt.gz,,no,no,,no,,monthly archive preferred; annual origin uses selected monthly snapshot
+2017,no,,variant_summary.txt.gz,,no,no,,no,,monthly archive preferred; annual origin uses selected monthly snapshot
+2018,no,,variant_summary.txt.gz,,no,no,,no,,monthly archive preferred; annual origin uses selected monthly snapshot
+2019,no,,variant_summary.txt.gz,,no,no,,no,,monthly archive preferred; annual origin uses selected monthly snapshot
+2020,no,,variant_summary.txt.gz,,no,no,,no,,monthly archive preferred; annual origin uses selected monthly snapshot
+2021,no,,variant_summary.txt.gz,,no,no,,no,,monthly archive preferred; annual origin uses selected monthly snapshot
+2022,no,,variant_summary.txt.gz,,no,no,,no,,monthly archive preferred; annual origin uses selected monthly snapshot
+2023,no,,variant_summary.txt.gz,,no,no,,no,,monthly archive preferred; annual origin uses selected monthly snapshot
+2024,no,,variant_summary.txt.gz,,no,no,,no,,monthly archive preferred; annual origin uses selected monthly snapshot
+2025-01,remote_only,https://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/archive/variant_summary_2025-01.txt.gz,variant_summary.txt.gz,,yes_remote,yes_remote,https://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/archive/submission_summary_2025-01.txt.gz,no,,monthly archive preferred; annual origin uses selected monthly snapshot
+2026-01,remote_only,https://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/archive/variant_summary_2026-01.txt.gz,variant_summary.txt.gz,,yes_remote,yes_remote,https://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/archive/submission_summary_2026-01.txt.gz,no,,monthly archive preferred; annual origin uses selected monthly snapshot

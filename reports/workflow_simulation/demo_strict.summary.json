@@ -1,0 +1,7 @@
+{
+  "domain": "inherited_arrhythmia",
+  "mode": "CAB-Strict",
+  "N": 2,
+  "direct_use_allowed_N": 1,
+  "not_clinical_use": true
+}

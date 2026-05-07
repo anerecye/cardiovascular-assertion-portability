@@ -1,0 +1,8 @@
+resource,supports,does_not_support,claim_strength
+eMERGE SCN5A/KCNH2 JAMA 2016,external genotype-first evidence that potentially pathogenic variant status can be discordant with EHR/ECG phenotype realization in an unselected cohort,"CAB output correctness, SADS prediction, patient outcomes, clinical deployment",external_genotype_phenotype_proxy
+eMERGE-III inherited arrhythmia sequencing study,external support for genotype-first phenotype-concordance uncertainty and reclassification as a real-world issue,"CAB predictions, SADS outcomes, or automated routing correctness",external_genotype_phenotype_proxy
+ClinGen Evidence Repository / VCEP / CSpec,classification comparator and expert-curation benchmark for variant pathogenicity assertions,"CAB portability, context transfer, penetrance realization, patient outcomes, FDA recognition for CAB",expert_curation_comparator
+Personal Genome Project / PGP,technical executability of CAB/PRF on open genotype-trait records,"penetrance estimates, SADS risk, clinical outcome prediction, population validity",open_individual_demo
+DiscovEHR / Geisinger genotype-first penetrance studies,external rationale that P/LP or predicted functional variation does not equal uniform phenotype realization,"CAB routing correctness, CAB clinical impact, individual prognosis",penetrance_rationale
+LOVD,feasibility of independent label comparison against ClinVar/CAB environments,"clinical correctness, comprehensive coverage, CAB validation, patient outcomes",feasibility_only
+PhysioNet ECG/rhythm datasets,phenotype-model layer feasibility and external rhythm-label vocabulary alignment,CAB genotype-to-portability claims without linked genotype/assertion data,feasibility_only

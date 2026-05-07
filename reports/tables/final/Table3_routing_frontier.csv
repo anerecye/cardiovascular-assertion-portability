@@ -1,0 +1,4 @@
+mode,unsupported_reuse,overrestriction,direct_use_allowance,true_portable_allowance
+ClinVar-label-only,36.92%,0.00%,100.00%,100.00%
+CAB-Strict,2.42%,57.40%,8.09%,8.99%
+CAB-Balanced,7.46%,43.22%,27.31%,31.48%

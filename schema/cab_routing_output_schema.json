@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CAB routing output row",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "assertion_id",
+    "domain",
+    "variation_id",
+    "gene",
+    "input_condition_label",
+    "normalized_condition_label",
+    "baseline_environment",
+    "classification",
+    "review_status",
+    "submitter_count",
+    "cab_portability_regime",
+    "cab_portability_score",
+    "cab_mode",
+    "direct_deterministic_use_allowed",
+    "routing_primary_action",
+    "routing_secondary_flags",
+    "unsupported_reuse_risk",
+    "cross_environment_drift_risk",
+    "condition_label_drift_risk",
+    "warning_codes",
+    "explanation_short",
+    "evidence_fields_used",
+    "limitations"
+  ],
+  "properties": {
+    "cab_mode": {
+      "type": "string",
+      "enum": [
+        "ClinVar-label-only",
+        "CAB-Strict",
+        "CAB-Balanced"
+      ]
+    },
+    "routing_primary_action": {
+      "type": "string",
+      "enum": [
+        "direct_deterministic_use",
+        "contextual_repair",
+        "disease_specific_review",
+        "population_penetrance_review",
+        "no_deterministic_reuse"
+      ]
+    }
+  }
+}

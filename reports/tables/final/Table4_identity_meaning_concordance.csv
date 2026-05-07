@@ -1,0 +1,6 @@
+source_matched,meaning_accepted,meaning_rejected,discordance_taxonomy,discordance_taxonomy_N,discordance_taxonomy_percent,example_VariationIDs,example_gene,example_phenotype
+26725,26421,304,non_domain_phenotype,9,2.96%,374130|1693182|982634|915531|985336,SCN5A|RYR2|ANK2|HCN4|CACNA1C,Syncope|Arrhythmogenic right ventricular cardiomyopathy|Arrhythmogenic right ventricular dysplasia 2
+26725,26421,304,syndromic_non_arrhythmia,16,5.26%,1334090|638351|1707563|983505|517664,CACNA1C|KCNJ2|KCNQ1|SCN5A|HCN4,Timothy syndrome|Andersen Tawil syndrome|Timothy syndrome|not provided
+26725,26421,304,developmental_or_imprinting_label,16,5.26%,1802180|977320|1334346|1803055|1705745,CACNA2D1|KCNQ1|ANK2|CACNA1C,Developmental and epileptic encephalopathy 110|Silver-Russell syndrome 1|not provided|ANK2-related epilepsy
+26725,26421,304,broad_or_unknown_phenotype,206,67.76%,378906|373047|1214434|1457006|1208780,KCNQ1|KCNH2|SCN5A|ANK2|TRDN,not provided|not provided|Cardiovascular phenotype|not specified
+26725,26421,304,condition_label_mismatch,57,18.75%,1787905|523705|1743359|519257|1791538,KCNQ1|KCNH2|SCN5A|TRDN|RYR2,Cardiovascular phenotype

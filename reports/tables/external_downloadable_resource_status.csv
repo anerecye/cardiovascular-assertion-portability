@@ -1,0 +1,9 @@
+resource,download_status,local_path,analysis_output,validation_status
+ClinVar variant_summary TSV,automatic,data/raw/external/clinvar/variant_summary.txt.gz,external_clinvar_cab_gene_assertion_summary.csv; external_clinvar_cab_benchmark_join.csv,"external public assertion comparator, not clinical validation"
+ClinVar gene_condition_source_id,automatic,data/raw/external/clinvar/gene_condition_source_id,downloaded for provenance/context; optional downstream parsing,gene-condition context comparator
+PhysioNet ECG-arrhythmia metadata,automatic metadata; full waveforms optional,data/raw/external/physionet/,external_physionet_rhythm_label_summary.csv,phenotype label comparator only; no genotype-linked CAB validation
+PGP,manual/optional public profile selection,data/raw/external/pgp/,not run unless public participant files are provided,open individual proof-of-concept only
+LOVD,manual/optional per-gene sampling subject to terms,data/raw/external/lovd/,not run unless gene-specific exports are provided,assertion comparator feasibility only
+GPCards,manual/optional if download endpoint accessible and terms allow,data/raw/external/gpcards/,not run unless downloaded table is provided,genotype-phenotype comparator feasibility only
+eMERGE row-level genotype/EHR,not open no-application for needed row-level validation,,literature-derived proxy only unless controlled access obtained,not downloaded; not external CAB validation
+DiscovEHR/Geisinger row-level genotype/EHR,not open no-application for needed row-level validation,,literature-derived penetrance rationale only unless access obtained,not downloaded; not external CAB validation
