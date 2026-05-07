@@ -1,0 +1,35 @@
+{
+  "N": 2,
+  "schema_errors": [],
+  "schema_warnings": [],
+  "missingness": {
+    "assertion_id": 0.0,
+    "domain": 0.0,
+    "variation_id": 0.0,
+    "gene": 0.0,
+    "input_condition_label": 0.0,
+    "normalized_condition_label": 0.0,
+    "baseline_environment": 0.0,
+    "classification": 0.0,
+    "review_status": 0.0,
+    "submitter_count": 0.0,
+    "cab_portability_regime": 0.0,
+    "cab_portability_score": 0.0,
+    "cab_mode": 0.0,
+    "direct_deterministic_use_allowed": 0.0,
+    "routing_primary_action": 0.0,
+    "routing_secondary_flags": 0.5,
+    "unsupported_reuse_risk": 0.0,
+    "cross_environment_drift_risk": 0.0,
+    "condition_label_drift_risk": 0.0,
+    "warning_codes": 0.5,
+    "explanation_short": 0.0,
+    "evidence_fields_used": 0.0,
+    "limitations": 0.0
+  },
+  "leakage_audit": {
+    "uses_followup_information": false,
+    "hits": []
+  },
+  "not_clinical_use": true
+}

@@ -1,0 +1,4 @@
+domain,N,condition_label_drift,cross_environment_drift,classification_change,self_loop_stability
+Inherited arrhythmia,942,38.75%,15.50%,9.98%,84.50%
+Cardiomyopathy,4918,38.65%,9.86%,0.00%,90.14%
+Hereditary cancer,20865,36.43%,16.19%,0.00%,83.81%

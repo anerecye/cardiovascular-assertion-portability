@@ -1,0 +1,4 @@
+domain,aligned_N,baseline_snapshot,followup_snapshot,condition_label_change_rate,cross_environment_drift_rate,any_meaning_drift_rate,classification_change_rate,notes
+inherited_arrhythmia,942,2023-01,2026-04,0.3874734607218684,0.0,0.3874734607218684,0.0,Full three-domain export materialized; baseline-only routing preserved.
+cardiomyopathy,4918,2023-01,2026-04,0.3865392435949573,0.0986173241154941,0.4036193574623831,0.0,Full three-domain export materialized; baseline-only routing preserved.
+hereditary_cancer,20865,2023-01,2026-04,0.3643421998562186,0.1618979151689432,0.3819793913251857,0.0,Full three-domain export materialized; baseline-only routing preserved.

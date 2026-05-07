@@ -1,0 +1,5 @@
+test,domain,N,baseline_rate,cab_rate,absolute_reduction,relative_reduction,statistic,p_value,method
+domain_reduction,cardiomyopathy,4918,0.9164294428629525,0.03924359495729972,0.8771858479056528,0.9571777235411583,,,descriptive
+domain_reduction,hereditary_cancer,20865,0.8544452432302899,0.1562904385334292,0.6981548046968608,0.8170854835090868,,,descriptive
+domain_reduction,inherited_arrhythmia,942,0.5997876857749469,0.021231422505307854,0.578556263269639,0.9646017699115045,,,descriptive
+method_by_domain_interaction_proxy,all,26725,0.8568755846585594,0.1299906454630496,,,609.5341259780071,4.378710957815799e-133,chi_square_prevented_vs_not_prevented_by_domain

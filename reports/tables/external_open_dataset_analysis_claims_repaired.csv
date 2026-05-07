@@ -1,0 +1,4 @@
+claim_label,claim_strength,allowed_claim,required_caveat
+downloaded_clinvar_external_comparator,external comparator analysis,"Downloaded ClinVar public data were used to produce 25,783 true row-level external assertion-source matches for CAB benchmark rows.","This supports source traceability/comparability, not clinical validation or patient-outcome validation."
+downloaded_physionet_phenotype_comparator,phenotype-side comparator analysis,PhysioNet ECG-arrhythmia metadata were downloaded and used as a rhythm/phenotype label vocabulary comparator.,This is not genotype-linked CAB validation and not waveform-level outcome validation.
+not_clinical_validation,required caveat,The downloaded external analysis supports external comparison and feasibility only.,"No patient-outcome validation, no prospective clinical deployment, no clinical validation of CAB/PRF."

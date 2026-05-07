@@ -1,0 +1,4 @@
+cab_mode,old_mode_name,features,behavior,goal,limitation
+ClinVar-label-only,ClinVar-label-only baseline,P/LP treated as portable direct-use by default,maximal permissiveness,default direct deterministic reuse,high unsupported deterministic reuse under drift endpoints
+CAB-Strict,CAB-Core,gene + baseline disease-model regime,high-stringency triage,minimize false portability / unsupported deterministic reuse,high overrestriction and low direct-use allowance
+CAB-Balanced,CAB-Conservative,full CAB routing configuration,balanced safety-permissiveness routing,retain large unsupported-reuse reduction while allowing more direct deterministic use,higher unsupported reuse than CAB-Strict but less overrestriction

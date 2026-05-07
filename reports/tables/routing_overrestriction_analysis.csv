@@ -1,0 +1,9 @@
+domain,system,N,false_restriction_overrestriction_N,overrestriction_rate,direct_use_allowed_rate,benchmark_conservatism_flag
+all,ClinVar_label_only_baseline,26725,0,0.0,1.0,not_conservative_by_threshold
+all,CAB,26725,0,0.0,0.27311506080449016,not_conservative_by_threshold
+cardiomyopathy,ClinVar_label_only_baseline,4918,0,0.0,1.0,not_conservative_by_threshold
+cardiomyopathy,CAB,4918,0,0.0,0.12281415209434729,not_conservative_by_threshold
+hereditary_cancer,ClinVar_label_only_baseline,20865,0,0.0,1.0,not_conservative_by_threshold
+hereditary_cancer,CAB,20865,0,0.0,0.30184519530313925,not_conservative_by_threshold
+inherited_arrhythmia,ClinVar_label_only_baseline,942,0,0.0,1.0,not_conservative_by_threshold
+inherited_arrhythmia,CAB,942,0,0.0,0.42144373673036095,not_conservative_by_threshold

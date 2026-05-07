@@ -1,0 +1,18 @@
+domain: cardiomyopathy
+not_clinical_use: true
+baseline_only_predictors:
+  - gene
+  - condition_label
+  - review_status
+  - submitter_count
+  - baseline_environment
+  - cab_portability_regime
+  - cab_portability_score
+routing_modes:
+  - ClinVar-label-only
+  - CAB-Strict
+  - CAB-Balanced
+limitations:
+  - CAB is not a diagnostic tool.
+  - CAB does not reclassify variants.
+  - CAB does not replace ACMG/AMP interpretation.

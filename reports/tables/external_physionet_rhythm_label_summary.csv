@@ -1,0 +1,65 @@
+source,label_or_record,count_or_size,CAB_PRF_use
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,1AVB | 1 degree atrioventricular block | 270492004,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,2AVB | 2 degree atrioventricular block | 195042002,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,2AVB1 | 2 degree atrioventricular block(Type one) | 54016002,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,2AVB2 | 2 degree atrioventricular block(Type two) | 28189009,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,3AVB | 3 degree atrioventricular block | 27885002,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,ABI | atrial bigeminy | 251173003,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,ALS | Axis left shift | 39732003,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,APB | atrial premature beats | 284470004,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,AQW | abnormal Q wave | 164917005,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,ARS | Axis right shift | 47665007,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,AVB | atrioventricular block | 233917008,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,CCR | countercolockwise rotation | 251199005,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,CR | colockwise rotation | 251198002,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,ERV | Early repolarization of the ventricles | 428417006,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,FQRS | fQRS Wave | 164942001,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,IDC | Interior differences conduction | 698252002,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,IVB | Intraventricular block | 698252002,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,JEB | junctional escape beat | 426995002,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,JPT | junctional premature beat | 251164006,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,LBBB | left bundle branch block | 164909002,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,LBBBB | left back bundle branch block | 164909002,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,LFBBB | left front bundle branch block | 164909002,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,LVH | left ventricle hypertrophy | 164873001,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,LVQRSAL | lower voltage QRS in all lead | 251146004,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,LVQRSCL | lower voltage QRS in chest lead | 251148003,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,LVQRSLL | lower voltage QRS in limb lead | 251147008,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,MI | myocardial infarction | 164865005,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,MIBW | myocardial infraction in back wall | 164865005,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,MIFW | Myocardial infgraction in the front wall | 164865005,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,MILW | Myocardial infraction in the lower wall | 164865005,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,MISW | Myocardial infraction in the side wall | 164865005,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,PRIE | PR interval extension | 164947007,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,PWC | P wave Change | 164912004,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,QTIE | QT interval extension | 111975006,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,RAH | right atrial hypertrophy | 446358003,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,RBBB | right bundle branch block | 59118001,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,RVH | right ventricle hypertrophy | 89792004,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,STDD | ST drop down | 429622005,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,STE | ST extension | 164930006,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,STTC | ST-T Change | 428750005,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,STTU | ST tilt up | 164931005,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,TWC | T wave Change | 164934002,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,TWO | T wave opposite | 59931005,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,UW | U wave | 164937009,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,VB | ventricular bigeminy | 11157007,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,VEB | ventricular escape beat | 75532003,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,VFW | ventricular fusion wave | 13640000,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,VPB | ventricular premature beat | 17338001,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,VPE | ventricular preexcitation | 195060002,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,VET | ventricular escape trigeminy | 251180001,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,WAVN | Wandering in the atrioventricalualr node | 195101003,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,WPW | WPW | 74390002,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,SB | Sinus Bradycardia | 426177001,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,SR | Sinus Rhythm | 426783006,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,AFIB | Atrial Fibrillation | 164889003,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,ST | Sinus Tachycardia | 427084000,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,AF | Atrial Flutter | 164890007,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,SA | Sinus Irregularity | 427393009,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,SVT | Supraventricular Tachycardia | 426761007,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,AT | Atrial Tachycardia | 713422000,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,AVNRT | Atrioventricular  Node Reentrant Tachycardia | 233896004,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,AVRT | Atrioventricular Reentrant Tachycardia | 233897008,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia ConditionNames_SNOMED-CT.csv,SAAWR | Sinus Atrium to Atrial Wandering Rhythm | 195101003,,phenotype/rhythm label vocabulary comparator only; no genotype-linked CAB validation
+PhysioNet ECG-arrhythmia RECORDS,record_count,452,arrhythmia phenotype-side dataset; no germline variant linkage

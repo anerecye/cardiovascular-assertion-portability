@@ -1,0 +1,18 @@
+origin_id,baseline_snapshot,followup_snapshot,horizon_months,baseline_era,followup_era,available,notes
+2015_to_2016,2015,2016,12,pre_2018_early_expansion,pre_2018_early_expansion,no,annual rolling origin
+2016_to_2017,2016,2017,12,pre_2018_early_expansion,pre_2018_early_expansion,no,annual rolling origin
+2017_to_2018,2017,2018,12,pre_2018_early_expansion,2018_2020,no,annual rolling origin
+2018_to_2019,2018,2019,12,2018_2020,2018_2020,no,annual rolling origin
+2019_to_2020,2019,2020,12,2018_2020,2018_2020,no,annual rolling origin
+2020_to_2021,2020,2021,12,2018_2020,2021_2023,no,annual rolling origin
+2021_to_2022,2021,2022,12,2021_2023,2021_2023,no,annual rolling origin
+2022_to_2023,2022,2023,12,2021_2023,2021_2023,no,annual rolling origin
+2023_to_2024,2023,2024,12,2021_2023,2024_2026,no,annual rolling origin
+2024_to_202501,2024,2025-01,12,2024_2026,2024_2026,no,annual rolling origin
+202501_to_202601,2025-01,2026-01,12,2024_2026,2024_2026,no,annual rolling origin
+2015_to_2017,2015,2017,24,pre_2018_early_expansion,pre_2018_early_expansion,no,long-horizon window
+2015_to_2020,2015,2020,60,pre_2018_early_expansion,2018_2020,no,long-horizon window
+2015_to_202501,2015,2025-01,120,pre_2018_early_expansion,2024_2026,no,long-horizon window
+2018_to_2020,2018,2020,24,2018_2020,2018_2020,no,long-horizon window
+2020_to_2023,2020,2023,36,2018_2020,2021_2023,no,long-horizon window
+2022_to_202601,2022,2026-01,48,2021_2023,2024_2026,no,long-horizon window

@@ -1,0 +1,7 @@
+claim_status,claim,notes
+allowed,CAB is released as a reference implementation and benchmark for assertion portability. It supports baseline-only routing in Strict and Balanced modes and reproduces a retrospective-prospective workflow simulation across three disease domains.,Research software; not clinical deployment.
+forbidden,CAB is clinically deployed.,Not supported.
+forbidden,CAB is clinically validated.,External expert adjudication pending.
+forbidden,CAB improves patient outcomes.,No patient outcome data.
+forbidden,CAB replaces variant curation.,Does not replace ACMG/AMP or expert curation.
+forbidden,CAB should be used for diagnosis.,Not diagnostic.

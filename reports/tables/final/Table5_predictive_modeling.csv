@@ -1,0 +1,6 @@
+model,locked_manifest_key,AUROC,CI,review_enrichment_top10,comparison,delta_AUROC,comparison_delta_CI95_low,comparison_delta_CI95_high,validation_type
+Random,random,0.4924,not reported in locked manifest,0.984,,,,,historical prospective emulation / temporal backtest
+Gene-only,gene-only,0.5781,not reported in locked manifest,1.412,,,,,historical prospective emulation / temporal backtest
+Regime-only,regime-only,0.6998,not reported in locked manifest,2.29,,,,,historical prospective emulation / temporal backtest
+Gene + regime,gene+regime,0.7164,not reported in locked manifest,2.735,gene-only vs gene+regime,0.1383,0.1066,0.1627,historical prospective emulation / temporal backtest
+Full baseline,all-baseline predictor,0.7419,not reported in locked manifest,2.608,,,,,historical prospective emulation / temporal backtest

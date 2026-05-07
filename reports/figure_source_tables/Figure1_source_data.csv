@@ -1,0 +1,12 @@
+panel,item,description,N,example,unsupported_reuse,direct_use_allowed
+A,variant identity,source-level variant identity,,,,
+A,P/LP assertion,public pathogenic/likely pathogenic assertion,,,,
+A,disease-model environment,clinical inference context,,,,
+A,disease architecture regime,architecture-aware portability grammar,,,,
+A,CAB routing outcome,"direct use, repair, review, PRF-needed, or no deterministic reuse",,,,
+B,source matched,,26725.0,,,
+B,meaning accepted,,26421.0,,,
+B,meaning rejected,,304.0,ARR_977320,,
+D,ClinVar-label-only,,,,0.3692422825070159,1.0
+D,CAB-Strict,,,,0.0241721234798877,0.0808980355472404
+D,CAB-Balanced,,,,0.0745743685687558,0.2731150608044901

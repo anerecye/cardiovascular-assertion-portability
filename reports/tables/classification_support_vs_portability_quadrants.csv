@@ -1,0 +1,5 @@
+quadrant,N,percent,dominant_regimes,dominant_domains,interpretation
+high_support_high_portability,16857,0.6307577174929841,modifier_penetrance_boundary:11841|nonspecific_underresolved:2546|structural_functional_overlap:1518|phenotype_anchored_monogenic:597|syndrome_organ_boundary:329,hereditary_cancer:13263|cardiomyopathy:3017|inherited_arrhythmia:577,classification support and portability are related but non-identical dimensions
+high_support_low_portability,9868,0.3692422825070159,nonspecific_underresolved:4707|modifier_penetrance_boundary:4284|structural_functional_overlap:609|phenotype_anchored_monogenic:159|syndrome_organ_boundary:79,hereditary_cancer:7602|cardiomyopathy:1901|inherited_arrhythmia:365,classification support and portability are related but non-identical dimensions
+low_support_high_portability,0,0.0,,,classification support and portability are related but non-identical dimensions
+low_support_low_portability,0,0.0,,,classification support and portability are related but non-identical dimensions

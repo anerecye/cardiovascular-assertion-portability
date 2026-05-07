@@ -1,0 +1,10 @@
+domain,endpoint,gene_only_AUROC,protein_level_deleteriousness_only_AUROC,baseline_portability_regime_only_AUROC,gene_plus_portability_AUROC,gene_plus_protein_plus_portability_AUROC,scope,interpretation
+inherited_arrhythmia,condition_label_change,0.7659,,0.7655,0.8063,,domain-wide except protein comparator,portability not reducible to gene identity because gene+regime improves over gene-only
+inherited_arrhythmia,cross_environment_drift,0.8165,,0.7728,0.8483,,domain-wide except protein comparator,portability not reducible to gene identity because gene+regime improves over gene-only
+cardiomyopathy,condition_label_change,0.6556,,0.7024,0.7277,,domain-wide except protein comparator,portability not reducible to gene identity because gene+regime improves over gene-only
+cardiomyopathy,cross_environment_drift,0.5743,,0.7713,0.8339,,domain-wide except protein comparator,portability not reducible to gene identity because gene+regime improves over gene-only
+hereditary_cancer,condition_label_change,0.6353,,0.6467,0.6951,,domain-wide except protein comparator,portability not reducible to gene identity because gene+regime improves over gene-only
+hereditary_cancer,cross_environment_drift,0.7907,,0.7636,0.8732,,domain-wide except protein comparator,portability not reducible to gene identity because gene+regime improves over gene-only
+inherited_arrhythmia_missense_subset,future_condition_label_drift,0.7924,0.6291,0.8242,0.8497,0.8497,high-confidence AlphaMissense hg38 missense subset only,protein-level deleteriousness does not explain assertion portability in this subset
+inherited_arrhythmia_missense_subset,cross_environment_drift,0.7354,0.6364,0.778,0.8358,0.8358,high-confidence AlphaMissense hg38 missense subset only,protein-level deleteriousness does not explain assertion portability in this subset
+inherited_arrhythmia_missense_subset,any_meaning_drift,0.6997,0.5871,0.6998,0.7629,0.7629,high-confidence AlphaMissense hg38 missense subset only,protein-level deleteriousness does not explain assertion portability in this subset
