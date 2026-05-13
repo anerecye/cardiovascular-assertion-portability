@@ -1,0 +1,5 @@
+drift_artifact_category,N,label_drift_N,cross_environment_drift_N,submitter_count_change_N,rate_of_total_N,rate_among_label_drift_N,analysis_scope
+MeSH_OMIM_or_condition_term_rename_no_environment_shift,84,84,0,0,0.08917197452229299,0.23013698630136986,Inherited-arrhythmia ClinVar temporal alignment only; cancer/cardiomyopathy replay endpoints do not contain row-level condition-term history in the current artifacts.
+no_condition_label_drift,577,0,0,18,0.6125265392781316,0.0,Inherited-arrhythmia ClinVar temporal alignment only; cancer/cardiomyopathy replay endpoints do not contain row-level condition-term history in the current artifacts.
+real_environment_shift,146,146,146,62,0.15498938428874734,0.4,Inherited-arrhythmia ClinVar temporal alignment only; cancer/cardiomyopathy replay endpoints do not contain row-level condition-term history in the current artifacts.
+submitter_change_same_variant_no_environment_shift,135,135,0,135,0.14331210191082802,0.3698630136986301,Inherited-arrhythmia ClinVar temporal alignment only; cancer/cardiomyopathy replay endpoints do not contain row-level condition-term history in the current artifacts.

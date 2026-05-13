@@ -1,0 +1,151 @@
+model,endpoint,review_threshold,selected_rate,net_benefit
+gene+regime,E3_cross_environment_drift,0.01,1.0,0.14142359044136404
+gene+regime,E3_cross_environment_drift,0.02,0.9785594013096351,0.13248926137339875
+gene+regime,E3_cross_environment_drift,0.03,0.8846398503274088,0.1244728188016549
+gene+regime,E3_cross_environment_drift,0.04,0.7252759588400374,0.11641253507951356
+gene+regime,E3_cross_environment_drift,0.05,0.7040598690364827,0.11009600708975431
+gene+regime,E3_cross_environment_drift,0.060000000000000005,0.6840785781103835,0.10334096292020778
+gene+regime,E3_cross_environment_drift,0.06999999999999999,0.6177736202057998,0.09750042749228
+gene+regime,E3_cross_environment_drift,0.08,0.5142376052385407,0.09348680196851997
+gene+regime,E3_cross_environment_drift,0.09,0.49904583723105705,0.08929655938075022
+gene+regime,E3_cross_environment_drift,0.09999999999999999,0.4934705332086062,0.08469805633510032
+gene+regime,E3_cross_environment_drift,0.11,0.43113189897100096,0.07919109532168045
+gene+regime,E3_cross_environment_drift,0.12,0.3915434985968195,0.07455225784505487
+gene+regime,E3_cross_environment_drift,0.13,0.36220767072029936,0.07137834263410858
+gene+regime,E3_cross_environment_drift,0.14,0.3547240411599626,0.06830117258032936
+gene+regime,E3_cross_environment_drift,0.15000000000000002,0.34836295603367634,0.06539371595223682
+gene+regime,E3_cross_environment_drift,0.16,0.3389710009354537,0.06229943427324157
+gene+regime,E3_cross_environment_drift,0.17,0.3361646398503274,0.058684278742660065
+gene+regime,E3_cross_environment_drift,0.18000000000000002,0.3299532273152479,0.05497547286043486
+gene+regime,E3_cross_environment_drift,0.19,0.2764826941066417,0.05229717400593609
+gene+regime,E3_cross_environment_drift,0.2,0.2066978484565014,0.05225444340505145
+gene+regime,E3_cross_environment_drift,0.21000000000000002,0.1983536014967259,0.05090715326047057
+gene+regime,E3_cross_environment_drift,0.22,0.19427502338634237,0.049447602600081554
+gene+regime,E3_cross_environment_drift,0.23,0.19341440598690365,0.047532224557481816
+gene+regime,E3_cross_environment_drift,0.24000000000000002,0.19337698783910195,0.04562453842745311
+gene+regime,E3_cross_environment_drift,0.25,0.19318989710009354,0.0437168693483006
+gene+regime,E3_cross_environment_drift,0.26,0.19296538821328343,0.04177584506864208
+gene+regime,E3_cross_environment_drift,0.27,0.19274087932647335,0.03978779297000141
+gene+regime,E3_cross_environment_drift,0.28,0.19240411599625817,0.037794408065689636
+gene+regime,E3_cross_environment_drift,0.29000000000000004,0.19015902712815716,0.03495276617610244
+gene+regime,E3_cross_environment_drift,0.3,0.18791393826005612,0.03198717092075371
+gene+regime,E3_cross_environment_drift,0.31,0.18548175865294667,0.029193205081276007
+gene+regime,E3_cross_environment_drift,0.32,0.17695042095416277,0.027112749683596546
+gene+regime,E3_cross_environment_drift,0.33,0.17246024321796072,0.02552420311910978
+gene+regime,E3_cross_environment_drift,0.34,0.16587464920486436,0.023402216741786427
+gene+regime,E3_cross_environment_drift,0.35000000000000003,0.15012160898035548,0.022209109879830165
+gene+regime,E3_cross_environment_drift,0.36000000000000004,0.14162768942937323,0.019550982226379784
+gene+regime,E3_cross_environment_drift,0.37,0.11633302151543498,0.017442202325270613
+gene+regime,E3_cross_environment_drift,0.38,0.10855004677268475,0.01639276984821509
+gene+regime,E3_cross_environment_drift,0.39,0.10855004677268475,0.01488199481666641
+gene+regime,E3_cross_environment_drift,0.4,0.10855004677268475,0.013320860617399434
+gene+regime,E3_cross_environment_drift,0.41000000000000003,0.09579045837231057,0.01169475670276355
+gene+regime,E3_cross_environment_drift,0.42000000000000004,0.042207670720299344,0.01388600367730073
+gene+regime,E3_cross_environment_drift,0.43,0.042207670720299344,0.013389132325669179
+gene+regime,E3_cross_environment_drift,0.44,0.042207670720299344,0.01287451556862221
+gene+regime,E3_cross_environment_drift,0.45,0.042207670720299344,0.012341185474955354
+gene+regime,E3_cross_environment_drift,0.46,0.042207670720299344,0.01178810241485639
+gene+regime,E3_cross_environment_drift,0.47000000000000003,0.042207670720299344,0.011214148295885767
+gene+regime,E3_cross_environment_drift,0.48000000000000004,0.042207670720299344,0.010618119018493199
+gene+regime,E3_cross_environment_drift,0.49,0.042207670720299344,0.009998716043947982
+gene+regime,E3_cross_environment_drift,0.5,0.04074836295603368,0.00894293732460243
+gene+baseline-ontology+CAB,E3_cross_environment_drift,0.01,0.7277081384471469,0.14235980005858395
+gene+baseline-ontology+CAB,E3_cross_environment_drift,0.02,0.6084190832553789,0.13637769420209617
+gene+baseline-ontology+CAB,E3_cross_environment_drift,0.03,0.5422637979420019,0.1320143114771489
+gene+baseline-ontology+CAB,E3_cross_environment_drift,0.04,0.4845650140318054,0.12901465544122231
+gene+baseline-ontology+CAB,E3_cross_environment_drift,0.05,0.4466978484565014,0.12624095317808084
+gene+baseline-ontology+CAB,E3_cross_environment_drift,0.060000000000000005,0.43259120673526663,0.12265748462472384
+gene+baseline-ontology+CAB,E3_cross_environment_drift,0.06999999999999999,0.42319925163704397,0.11926732852530252
+gene+baseline-ontology+CAB,E3_cross_environment_drift,0.08,0.41231057062675397,0.11593443689754748
+gene+baseline-ontology+CAB,E3_cross_environment_drift,0.09,0.40486435921421887,0.11287944982987078
+gene+baseline-ontology+CAB,E3_cross_environment_drift,0.09999999999999999,0.3972310570626754,0.10981810622596404
+gene+baseline-ontology+CAB,E3_cross_environment_drift,0.11,0.3878016838166511,0.1076700896564047
+gene+baseline-ontology+CAB,E3_cross_environment_drift,0.12,0.3777362020579981,0.1053490943107407
+gene+baseline-ontology+CAB,E3_cross_environment_drift,0.13,0.37309635173058936,0.10243841596507638
+gene+baseline-ontology+CAB,E3_cross_environment_drift,0.14,0.36710944808231993,0.0992651249809646
+gene+baseline-ontology+CAB,E3_cross_environment_drift,0.15000000000000002,0.35992516370439664,0.09575304022450888
+gene+baseline-ontology+CAB,E3_cross_environment_drift,0.16,0.35524789522918615,0.09296449730500245
+gene+baseline-ontology+CAB,E3_cross_environment_drift,0.17,0.34694106641721234,0.08862060026823854
+gene+baseline-ontology+CAB,E3_cross_environment_drift,0.18000000000000002,0.3421889616463985,0.08464258824066256
+gene+baseline-ontology+CAB,E3_cross_environment_drift,0.19,0.3297287184284378,0.0803667902389449
+gene+baseline-ontology+CAB,E3_cross_environment_drift,0.2,0.31711880261927033,0.07666043030869972
+gene+baseline-ontology+CAB,E3_cross_environment_drift,0.21000000000000002,0.299644527595884,0.07305159204745948
+gene+baseline-ontology+CAB,E3_cross_environment_drift,0.22,0.27569691300280635,0.0692254923124895
+gene+baseline-ontology+CAB,E3_cross_environment_drift,0.23,0.27199251637043964,0.06658146343833904
+gene+baseline-ontology+CAB,E3_cross_environment_drift,0.24000000000000002,0.26652946679139383,0.06363448377726355
+gene+baseline-ontology+CAB,E3_cross_environment_drift,0.25,0.26439663236669786,0.06084190832553788
+gene+baseline-ontology+CAB,E3_cross_environment_drift,0.26,0.2612160898035547,0.058551310899299665
+gene+baseline-ontology+CAB,E3_cross_environment_drift,0.27,0.24909260991580917,0.056517293078924086
+gene+baseline-ontology+CAB,E3_cross_environment_drift,0.28,0.24658559401309635,0.05440182933167029
+gene+baseline-ontology+CAB,E3_cross_environment_drift,0.29000000000000004,0.2411599625818522,0.052277368608282054
+gene+baseline-ontology+CAB,E3_cross_environment_drift,0.3,0.22858746492048643,0.0509581718562074
+gene+baseline-ontology+CAB,E3_cross_environment_drift,0.31,0.2097287184284378,0.046227681294993286
+gene+baseline-ontology+CAB,E3_cross_environment_drift,0.32,0.18245088868101028,0.04422384856655477
+gene+baseline-ontology+CAB,E3_cross_environment_drift,0.33,0.17844714686623012,0.042624855144297216
+gene+baseline-ontology+CAB,E3_cross_environment_drift,0.34,0.16913002806361085,0.04117130141451937
+gene+baseline-ontology+CAB,E3_cross_environment_drift,0.35000000000000003,0.15173058933582786,0.04097287184284377
+gene+baseline-ontology+CAB,E3_cross_environment_drift,0.36000000000000004,0.1437979420018709,0.03978718428437792
+gene+baseline-ontology+CAB,E3_cross_environment_drift,0.37,0.13545369504209542,0.03870105572631297
+gene+baseline-ontology+CAB,E3_cross_environment_drift,0.38,0.12737137511693172,0.03714535743383929
+gene+baseline-ontology+CAB,E3_cross_environment_drift,0.39,0.12565014031805424,0.035846585594013096
+gene+baseline-ontology+CAB,E3_cross_environment_drift,0.4,0.1234798877455566,0.034237605238540685
+gene+baseline-ontology+CAB,E3_cross_environment_drift,0.41000000000000003,0.12003741814780168,0.03258042523505256
+gene+baseline-ontology+CAB,E3_cross_environment_drift,0.42000000000000004,0.11902712815715621,0.031223508919067125
+gene+baseline-ontology+CAB,E3_cross_environment_drift,0.43,0.11775491113189897,0.02998637848128273
+gene+baseline-ontology+CAB,E3_cross_environment_drift,0.44,0.10686623012160898,0.030159027128157156
+gene+baseline-ontology+CAB,E3_cross_environment_drift,0.45,0.10417212347988775,0.027022706012416027
+gene+baseline-ontology+CAB,E3_cross_environment_drift,0.46,0.09545369504209542,0.027477393202369818
+gene+baseline-ontology+CAB,E3_cross_environment_drift,0.47000000000000003,0.08875584658559402,0.025568596995958134
+gene+baseline-ontology+CAB,E3_cross_environment_drift,0.48000000000000004,0.08056127221702526,0.024793840397208028
+gene+baseline-ontology+CAB,E3_cross_environment_drift,0.49,0.06753975678203929,0.02748032795906015
+gene+baseline-ontology+CAB,E3_cross_environment_drift,0.5,0.06106641721234799,0.02806361085126286
+full baseline no follow-up ontology,E3_cross_environment_drift,0.01,0.7147240411599626,0.14230197201198136
+full baseline no follow-up ontology,E3_cross_environment_drift,0.02,0.6281010289990645,0.13620511254080678
+full baseline no follow-up ontology,E3_cross_environment_drift,0.03,0.5314499532273153,0.1318858553614998
+full baseline no follow-up ontology,E3_cross_environment_drift,0.04,0.47913938260056127,0.12892890551917682
+full baseline no follow-up ontology,E3_cross_environment_drift,0.05,0.44890551917680077,0.125888434838265
+full baseline no follow-up ontology,E3_cross_environment_drift,0.060000000000000005,0.43487371375116934,0.12259140576796768
+full baseline no follow-up ontology,E3_cross_environment_drift,0.06999999999999999,0.4192329279700655,0.11980727642153757
+full baseline no follow-up ontology,E3_cross_environment_drift,0.08,0.4085313376987839,0.11658844104608126
+full baseline no follow-up ontology,E3_cross_environment_drift,0.09,0.39846585594013095,0.11343003114752412
+full baseline no follow-up ontology,E3_cross_environment_drift,0.09999999999999999,0.38802619270346117,0.1110903232512213
+full baseline no follow-up ontology,E3_cross_environment_drift,0.11,0.3791580916744621,0.10886452738566968
+full baseline no follow-up ontology,E3_cross_environment_drift,0.12,0.37522918615528533,0.10594608385066757
+full baseline no follow-up ontology,E3_cross_environment_drift,0.13,0.3713376987839102,0.1030452781093083
+full baseline no follow-up ontology,E3_cross_environment_drift,0.14,0.36636108512628623,0.09995257467313508
+full baseline no follow-up ontology,E3_cross_environment_drift,0.15000000000000002,0.3612347988774556,0.09657844054366367
+full baseline no follow-up ontology,E3_cross_environment_drift,0.16,0.3552104770813845,0.09310526081339926
+full baseline no follow-up ontology,E3_cross_environment_drift,0.17,0.3500467726847521,0.08987794019858666
+full baseline no follow-up ontology,E3_cross_environment_drift,0.18000000000000002,0.33863423760523853,0.08615300371899881
+full baseline no follow-up ontology,E3_cross_environment_drift,0.19,0.32493919550982225,0.08264513968286966
+full baseline no follow-up ontology,E3_cross_environment_drift,0.2,0.3158465855940131,0.07772684752104772
+full baseline no follow-up ontology,E3_cross_environment_drift,0.21000000000000002,0.29953227315247893,0.07303406709215995
+full baseline no follow-up ontology,E3_cross_environment_drift,0.22,0.2777174929840973,0.07009474466911325
+full baseline no follow-up ontology,E3_cross_environment_drift,0.23,0.2689242282507016,0.06672044513017385
+full baseline no follow-up ontology,E3_cross_environment_drift,0.24000000000000002,0.26574368568755846,0.0641287972034858
+full baseline no follow-up ontology,E3_cross_environment_drift,0.25,0.26136576239476145,0.061004053632678516
+full baseline no follow-up ontology,E3_cross_environment_drift,0.26,0.2553040224508887,0.05870705129825803
+full baseline no follow-up ontology,E3_cross_environment_drift,0.27,0.243666978484565,0.05606366210899957
+full baseline no follow-up ontology,E3_cross_environment_drift,0.28,0.23128157156220766,0.05292173370751481
+full baseline no follow-up ontology,E3_cross_environment_drift,0.29000000000000004,0.22974742750233865,0.050456527753988845
+full baseline no follow-up ontology,E3_cross_environment_drift,0.3,0.22226379794200188,0.047841774689295735
+full baseline no follow-up ontology,E3_cross_environment_drift,0.31,0.21354536950420955,0.046519434389446994
+full baseline no follow-up ontology,E3_cross_environment_drift,0.32,0.1999625818521983,0.044182028283717596
+full baseline no follow-up ontology,E3_cross_environment_drift,0.33,0.17833489242282508,0.04318277648241486
+full baseline no follow-up ontology,E3_cross_environment_drift,0.34,0.1724976613657624,0.04181761487654845
+full baseline no follow-up ontology,E3_cross_environment_drift,0.35000000000000003,0.1532647333956969,0.04170108656544577
+full baseline no follow-up ontology,E3_cross_environment_drift,0.36000000000000004,0.14492048643592143,0.03979887745556594
+full baseline no follow-up ontology,E3_cross_environment_drift,0.37,0.14267539756782038,0.0381421592647037
+full baseline no follow-up ontology,E3_cross_environment_drift,0.38,0.13990645463049578,0.035859863001297565
+full baseline no follow-up ontology,E3_cross_environment_drift,0.39,0.1336202057998129,0.03424741983468539
+full baseline no follow-up ontology,E3_cross_environment_drift,0.4,0.1266978484565014,0.03333956969130027
+full baseline no follow-up ontology,E3_cross_environment_drift,0.41000000000000003,0.12082319925163705,0.03254173867546099
+full baseline no follow-up ontology,E3_cross_environment_drift,0.42000000000000004,0.11782974742750234,0.03150995129189381
+full baseline no follow-up ontology,E3_cross_environment_drift,0.43,0.11659494855004678,0.02961416637946597
+full baseline no follow-up ontology,E3_cross_environment_drift,0.44,0.11528531337698784,0.027686756648403046
+full baseline no follow-up ontology,E3_cross_environment_drift,0.45,0.10492048643592142,0.02851943192448337
+full baseline no follow-up ontology,E3_cross_environment_drift,0.46,0.1042843779232928,0.026884246266846823
+full baseline no follow-up ontology,E3_cross_environment_drift,0.47000000000000003,0.09313376987839102,0.028746315547946412
+full baseline no follow-up ontology,E3_cross_environment_drift,0.48000000000000004,0.08699719363891488,0.02878319061667986
+full baseline no follow-up ontology,E3_cross_environment_drift,0.49,0.07457436856875585,0.028205212861571197
+full baseline no follow-up ontology,E3_cross_environment_drift,0.5,0.06712815715622077,0.02873713751169317

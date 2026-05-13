@@ -1,0 +1,5 @@
+endpoint,comparison,delta_AUROC,CI95_low,CI95_high
+E1_crude_condition_label_drift,gene-only -> gene+regime,0.10241022091957919,0.09669440446590878,0.10764384944252624
+E2_normalized_condition_label_drift,gene-only -> gene+regime,0.017356967541447665,0.014553332741541625,0.020159998662409938
+E3_cross_environment_drift,gene-only -> gene+regime,0.010293356939314768,0.007630791736577383,0.012680844316350238
+E4_proxy_adjudicated_true_shift,gene-only -> gene+regime,0.010037538301691407,0.007213357687797151,0.01253729209449076

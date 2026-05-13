@@ -1,0 +1,7 @@
+repair_stratum,initial_review_or_repair_N,after_repair_direct_use_N,after_repair_still_review_N,repair_rescue_rate,E3_false_direct_after_repair_N,E3_false_direct_after_repair_rate,E4_false_direct_after_repair_N,E4_false_direct_after_repair_rate,stable_rescued_N
+all_overrestricted_hereditary_cancer,14567,8958,5609,0.6149516029381479,628,0.07010493413708417,628,0.07010493413708417,8330
+BRCA1/2_like,8127,7331,796,0.9020548787990649,102,0.013913517937525577,102,0.013913517937525577,7229
+MMR_Lynch_like,3607,1627,1980,0.45106736900471306,526,0.32329440688383526,526,0.32329440688383526,1101
+stable_overrestricted_hereditary_cancer,11899,8330,3569,0.700058828472981,0,0.0,0,0.0,8330
+stable_BRCA1/2_like,7841,7229,612,0.9219487310292055,0,0.0,0,0.0,7229
+stable_MMR_Lynch_like,2439,1101,1338,0.45141451414514144,0,0.0,0,0.0,1101

@@ -1,0 +1,4 @@
+endpoint,comparison,delta_AUROC,CI95_low,CI95_high
+E3_cross_environment_drift,gene + baseline ontology -> gene + baseline ontology + CAB,0.0026442090083366177,0.0012649460603309265,0.003822606559807265
+E4_proxy_adjudicated_true_shift,gene + baseline ontology -> gene + baseline ontology + CAB,0.002895169306059042,0.001677718543496673,0.004234041501387087
+proxy_true_plus_uncertain,gene + baseline ontology -> gene + baseline ontology + CAB,0.016400775870963114,0.013675311346683584,0.019208603325100396

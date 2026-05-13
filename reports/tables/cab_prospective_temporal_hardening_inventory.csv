@@ -1,0 +1,8 @@
+requested_snapshot,local_or_remote_status,source,can_run_temporal_panel_now
+2023-01,not_materialized_locally,,False
+2023-07,not_materialized_locally,,False
+2024-01,not_materialized_locally,,False
+2024-07,not_materialized_locally,,False
+2025-01,remote_only,https://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/archive/variant_summary_2025-01.txt.gz,False
+2025-07,not_materialized_locally,,False
+2026-04,not_materialized_locally,,False

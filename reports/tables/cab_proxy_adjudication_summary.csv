@@ -1,0 +1,13 @@
+adjudication_proxy_label,domain,N,rate_within_domain
+ontology_synonym_or_parent_child,hereditary_cancer,3864,0.1851905104241553
+ontology_synonym_or_parent_child,inherited_arrhythmia,80,0.08492569002123142
+stable_no_drift,cardiomyopathy,3017,0.6134607564050427
+stable_no_drift,hereditary_cancer,13263,0.6356578001437815
+stable_no_drift,inherited_arrhythmia,577,0.6125265392781316
+submitter_noise,inherited_arrhythmia,135,0.14331210191082802
+true_environment_shift,cardiomyopathy,485,0.0986173241154941
+true_environment_shift,hereditary_cancer,3378,0.1618979151689432
+true_environment_shift,inherited_arrhythmia,140,0.14861995753715498
+uncertain,cardiomyopathy,1416,0.2879219194794632
+uncertain,hereditary_cancer,360,0.017253774263120056
+uncertain,inherited_arrhythmia,10,0.010615711252653927
