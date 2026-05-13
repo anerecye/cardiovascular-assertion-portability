@@ -1,0 +1,13 @@
+negative_control_stratum,mode,N,false_alarm_rate_review_or_block,direct_use_preserved_rate,cross_env_drift_rate,proxy_true_shift_rate
+all_high_confidence_stable,CAB-Strict,18851,0.9246193835870776,0.07538061641292239,0.0,0.0
+all_high_confidence_stable,CAB-Balanced,18851,0.6971513447562464,0.30284865524375365,0.0,0.0
+BRCA1_BRCA2_HBOC_like_stable,CAB-Strict,7829,1.0,0.0,0.0,0.0
+BRCA1_BRCA2_HBOC_like_stable,CAB-Balanced,7829,1.0,0.0,0.0,0.0
+MMR_Lynch_like_stable,CAB-Strict,3891,0.9856078129015677,0.01439218709843228,0.0,0.0
+MMR_Lynch_like_stable,CAB-Balanced,3891,0.6216910819840658,0.3783089180159342,0.0,0.0
+sarcomere_cardiomyopathy_stable,CAB-Strict,712,0.42837078651685395,0.5716292134831461,0.0,0.0
+sarcomere_cardiomyopathy_stable,CAB-Balanced,712,0.42837078651685395,0.5716292134831461,0.0,0.0
+VCEP_covered_stable,CAB-Strict,18756,0.9280763489016848,0.07192365109831521,0.0,0.0
+VCEP_covered_stable,CAB-Balanced,18756,0.6990296438473022,0.3009703561526978,0.0,0.0
+MONDO_parent_child_or_synonym_stable,CAB-Strict,3944,0.9470081135902637,0.05299188640973631,0.0,0.0
+MONDO_parent_child_or_synonym_stable,CAB-Balanced,3944,0.809077079107505,0.19092292089249494,0.0,0.0

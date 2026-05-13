@@ -1,0 +1,3 @@
+mode,overrestricted_stable_N,overrestricted_stable_rate,top_regimes,top_genes,top_domains,contextual_repair_rescue_N,contextual_repair_rescue_rate_among_overrestricted
+CAB-Strict,19117,0.7153227315247895,modifier_penetrance_boundary; nonspecific_underresolved; structural_functional_overlap; phenotype_anchored_monogenic; syndrome_organ_boundary,BRCA2; BRCA1; TTN; MSH2; MLH1,hereditary_cancer; cardiomyopathy; inherited_arrhythmia,16372,0.8564105246639117
+CAB-Balanced,14860,0.5560336763330215,modifier_penetrance_boundary; nonspecific_underresolved; structural_functional_overlap; phenotype_anchored_monogenic; syndrome_organ_boundary,BRCA2; BRCA1; TTN; MSH2; MLH1,hereditary_cancer; cardiomyopathy; inherited_arrhythmia,14860,1.0

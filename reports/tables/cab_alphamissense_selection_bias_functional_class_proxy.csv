@@ -1,0 +1,4 @@
+stratum,N,baseline_submitter_count_mean,baseline_submitter_count_median,baseline_submitter_count_Q1,baseline_submitter_count_Q3,future_condition_label_drift_rate,any_meaning_drift_rate,cross_environment_drift_rate
+missense_AM_feasible_proxy,289,1.2525951557093427,1.0,1.0,1.0,0.4083044982698962,0.5121107266435986,0.07958477508650519
+non_missense_or_unresolved_proxy,653,1.2986217457886677,1.0,1.0,1.0,0.3782542113323124,0.4226646248085758,0.1883614088820827
+full_arrhythmia_temporal_alignment,942,1.2845010615711252,1.0,1.0,1.0,0.3874734607218684,0.45010615711252655,0.15498938428874734

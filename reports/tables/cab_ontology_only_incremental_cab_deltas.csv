@@ -1,0 +1,5 @@
+endpoint,comparison,delta_AUROC,CI95_low,CI95_high
+E1_crude_condition_label_drift,gene + ontology -> gene + ontology + CAB,0.00034563132560816445,-8.33573483930733e-05,0.0007576886759789735
+E2_normalized_condition_label_drift,gene + ontology -> gene + ontology + CAB,1.2326884826885376e-05,-0.00020161101184768825,0.0002332258652569583
+E3_cross_environment_drift,gene + ontology -> gene + ontology + CAB,-3.29422560341186e-07,-3.03992440594536e-06,2.6229159232088455e-06
+E4_proxy_adjudicated_true_shift,gene + ontology -> gene + ontology + CAB,-2.836531170502532e-06,-7.913184507143955e-06,0.0
