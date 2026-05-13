@@ -1,0 +1,28 @@
+phase,artifact_path,artifact_role,row_count,status
+Phase 1,reports/tables/cab_endpoint_triangulation_matrix.csv,endpoint triangulation matrix,8,generated
+Phase 1,reports/figures/cab_endpoint_triangulation_matrix.svg,endpoint triangulation figure,1,generated
+Phase 2,reports/tables/cab_falsification_negative_controls.csv,negative-control falsification tests,32,generated
+Phase 2,reports/tables/cab_random_routing_null_comparison.csv,random routing nulls,2,generated
+Phase 2,reports/figures/cab_falsification_panel.svg,falsification figure,1,generated
+Phase 3,reports/tables/cab_domain_balanced_metrics.csv,domain-balanced metrics,18,generated
+Phase 3,reports/tables/cab_domain_downsample_stability.csv,downsample stability,6,generated
+Phase 3,reports/tables/cab_leave_one_domain_out_metrics.csv,leave-one-domain-out metrics,9,generated
+Phase 3,reports/figures/cab_domain_balance_robustness.svg,domain balance figure,1,generated
+Phase 4,reports/tables/cab_curator_review_budget_utility.csv,curator review-budget utility,160,generated
+Phase 4,reports/tables/cab_workload_capture_curves.csv,workload capture curves,3200,generated
+Phase 4,reports/figures/cab_curator_utility_curves.svg,curator utility figure,1,generated
+Phase 5,reports/tables/cab_continuous_operating_frontier.csv,continuous operating frontier,404,generated
+Phase 5,reports/tables/cab_cost_sensitive_frontier_recommendations.csv,cost-sensitive recommendations,15,generated
+Phase 5,reports/figures/cab_continuous_operating_frontier.svg,continuous frontier figure,1,generated
+Phase 5,reports/figures/cab_cost_sensitive_utility_surface.svg,cost surface figure,1,generated
+Phase 6,reports/adjudication/cab_expert_adjudication_casebook_blinded.csv,blinded adjudication casebook,400,generated
+Phase 6,reports/adjudication/cab_expert_adjudication_casebook_answer_key.csv,adjudication answer key,400,generated
+Phase 6,reports/qc/cab_adjudication_protocol.md,adjudication protocol,1,generated
+Phase 6,reports/figures/cab_adjudication_casebook_schematic.svg,adjudication schematic,1,generated
+Phase 7,reports/tables/cab_clingen_vcep_comparator_mapping.csv,ClinGen/VCEP mapping,26725,generated
+Phase 7,reports/tables/cab_vcep_disease_specific_review_enrichment.csv,VCEP review enrichment,1,generated
+Phase 7,reports/tables/emerge_quantitative_proxy_metrics.csv,eMERGE quantitative proxy metrics,2,generated
+Phase 7,reports/tables/genotype_first_quantitative_proxy_metrics.csv,genotype-first quantitative proxy metrics,3,generated
+Phase 7,reports/tables/lovd_gpcards_external_label_sample.csv,LOVD/GPCards external label sample schema,60,generated
+Phase 7,reports/qc/external_comparator_upgrade_summary.md,external comparator summary,1,generated
+Phase 7,reports/figures/cab_external_comparator_map.svg,external comparator map,1,generated

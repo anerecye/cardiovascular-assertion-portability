@@ -1,0 +1,5 @@
+boundary_id,quarantined_claim,where_kept,main_text_rule
+modifier_OR_quarantine,Old modifier/penetrance-boundary OR magnitude,reports/tables/modifier_penetrance_quasi_separation_quarantine.csv,absent from biological effect-size claims
+external_validation_boundary,External resources validate CAB output correctness,reports/qc/external_comparator_upgrade_summary.md,"external resources support plausibility, comparator relevance, and adjudication targets"
+patient_outcome_boundary,"CAB predicts patient outcomes, SADS outcome, cause of death, or individual penetrance",reports/qc/cab_claim_boundaries_quarantined.csv,main text emphasizes assertion governance and review utility
+endpoint_boundary,Single endpoint proves portability biology,reports/tables/cab_endpoint_triangulation_matrix.csv,claims require endpoint triangulation

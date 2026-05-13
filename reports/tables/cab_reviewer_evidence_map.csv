@@ -1,0 +1,7 @@
+reviewer_issue,upgrade_response,evidence_artifacts
+circularity,modifier OR quarantined; negative controls and independent endpoints added,modifier_penetrance_quasi_separation_quarantine; cab_falsification_negative_controls
+endpoint validity,"triangulation across temporal, environment, semantic, identity-meaning, curation-action, and rolling-origin endpoints",cab_endpoint_triangulation_matrix
+domain imbalance,"macro/micro metrics, downsampling, domain bootstrap, and leave-one-domain-out analyses",cab_domain_balanced_metrics; cab_domain_downsample_stability; cab_leave_one_domain_out_metrics
+modest AUROC,curator utility and review-budget enrichment reported in addition to AUROC,cab_curator_review_budget_utility; cab_workload_capture_curves
+external validation,external comparator support is quantified directionally and CAB-specific validation is routed to adjudication casebook,cab_clingen_vcep_comparator_mapping; cab_adjudication_protocol
+SADS path,SADS retained as high-value adjudication pathway rather than caveat-only use case,cab_sads_adjudication_pathway_cases; sads_cab_portability_use_cases

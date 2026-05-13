@@ -1,0 +1,7 @@
+endpoint,source,observed_matched_rate_difference,null_mean,null_CI95_low,null_CI95_high,permutation_p_value,permutation_iterations,block_definition,status
+future_cross_environment_drift,three_domain_benchmark_2023-01_to_2026-04,-0.07196016092630753,0.00701972985968011,-0.0034475076047492765,0.01757923658129723,0.0004997501249375312,2000,domain + gene + origin_id,matched_blocks_evaluated
+condition_label_drift,three_domain_benchmark_2023-01_to_2026-04,-0.43432558139534877,-0.00244799421057796,-0.016930036306544993,0.012825434206652941,0.0004997501249375312,2000,domain + gene + origin_id,matched_blocks_evaluated
+any_meaning_drift,three_domain_benchmark_2023-01_to_2026-04,-0.41887449710528896,-0.0029817397703856344,-0.017318962810322813,0.01245015700127558,0.0004997501249375312,2000,domain + gene + origin_id,matched_blocks_evaluated
+semantic_drift_without_reclassification,three_domain_benchmark_2023-01_to_2026-04,-0.43432558139534877,-0.00244799421057796,-0.016930036306544993,0.012825434206652941,0.0004997501249375312,2000,domain + gene + origin_id,matched_blocks_evaluated
+self_loop_stable_inverse,three_domain_benchmark_2023-01_to_2026-04,-0.41887449710528896,-0.0029817397703856344,-0.017318962810322813,0.01245015700127558,0.0004997501249375312,2000,domain + gene + origin_id,matched_blocks_evaluated
+classification_stable_meaning_drift,three_domain_benchmark_2023-01_to_2026-04,-0.41887449710528896,-0.0029817397703856344,-0.017318962810322813,0.01245015700127558,0.0004997501249375312,2000,domain + gene + origin_id,matched_blocks_evaluated
