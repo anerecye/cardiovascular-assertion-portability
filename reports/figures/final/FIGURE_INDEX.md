@@ -20,3 +20,15 @@
 | Supplementary Figure 8 | SADS portability grammar | PRF requirement distribution across SADS use cases | reports/figure_source_tables/SupplementaryFigure8_source_data.csv | scripts/figures/generate_cab_publication_figures.py::supplementary_sads_grammar | SADS requires explicit portability grammar across non-equivalent contexts. | CAB does not infer cause of death or predict sudden death. |
 
 All figures are exported as SVG, PDF, and PNG with white backgrounds. Source tables are exported in reports/figure_source_tables/.
+## Hardcore Evidence Upgrade Figures
+
+| Figure | Title | Source tables | Generation script | Primary claim |
+|---|---|---|---|---|
+| Upgrade Figure 1 | Endpoint triangulation matrix | reports/tables/cab_endpoint_triangulation_matrix.csv | scripts/build_cab_hardcore_evidence_upgrade.py | CAB signal recurs across endpoint families. |
+| Upgrade Figure 2 | Falsification controls | reports/tables/cab_falsification_negative_controls.csv; reports/tables/cab_random_routing_null_comparison.csv | scripts/build_cab_hardcore_evidence_upgrade.py | CAB exceeds null and permuted controls. |
+| Upgrade Figure 3 | Domain-balanced robustness | reports/tables/cab_domain_balanced_metrics.csv; reports/tables/cab_domain_downsample_stability.csv | scripts/build_cab_hardcore_evidence_upgrade.py | Signals are not artifacts of domain imbalance. |
+| Upgrade Figure 4 | Curator utility curves | reports/tables/cab_curator_review_budget_utility.csv; reports/tables/cab_workload_capture_curves.csv | scripts/build_cab_hardcore_evidence_upgrade.py | CAB improves finite review-budget utility. |
+| Upgrade Figure 5 | Continuous operating frontier | reports/tables/cab_continuous_operating_frontier.csv | scripts/build_cab_hardcore_evidence_upgrade.py | CAB is a tunable frontier. |
+| Upgrade Figure 6 | Cost-sensitive utility surface | reports/tables/cab_cost_sensitive_frontier_recommendations.csv | scripts/build_cab_hardcore_evidence_upgrade.py | Workflow costs determine optimal operating point. |
+| Upgrade Figure 7 | Adjudication casebook schematic | reports/adjudication/cab_expert_adjudication_casebook_blinded.csv | scripts/build_cab_hardcore_evidence_upgrade.py | CAB produces adjudication-ready questions. |
+| Upgrade Figure 8 | External comparator map | reports/tables/cab_clingen_vcep_comparator_mapping.csv | scripts/build_cab_hardcore_evidence_upgrade.py | External resources support curation relevance. |
